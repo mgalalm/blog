@@ -6,8 +6,15 @@
     <description>Recent content in Posts on mgalalm - blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Dec 2024 15:48:00 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 03 Dec 2024 10:48:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testing with Fake HTTP Requests in Laravel</title>
+      <link>http://localhost:1313/posts/testing-with-fake-http-laravel/</link>
+      <pubDate>Tue, 03 Dec 2024 10:48:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/testing-with-fake-http-laravel/</guid>
+      <description>&lt;h1 id=&#34;testing-with-fake-http-requests-in-laravel&#34;&gt;Testing with Fake HTTP Requests in Laravel&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/fake-http.jpg&#34; alt=&#34;Fake HTTP&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In Laravel, one of the powerful tools for testing is the ability to simulate HTTP responses without actually hitting an external API. This is particularly useful when you need to ensure your application behaves correctly regardless of the API&amp;rsquo;s response. Here&amp;rsquo;s how you can use &lt;code&gt;Http::fake()&lt;/code&gt; to test a scenario where you&amp;rsquo;re checking the stock status and price of an item from an Amazon-like service.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Testing Laravel Applications with Pest</title>
       <link>http://localhost:1313/posts/testing-laravel-with-pest/</link>
