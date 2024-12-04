@@ -12,6 +12,8 @@ tags: ["Laravel", "PHP", "Testing", "Pest"]
 
 Testing is a critical part of software development, ensuring that applications behave as expected. Laravel, known for its elegant syntax and developer-friendly features, has been paired beautifully with Pest, an innovative testing framework for PHP. Here's how to leverage Pest for writing tests in Laravel.
 
+<!--more-->
+
 ## Why Pest?
 
 Pest brings some delightful features to the table:
