@@ -6,8 +6,6 @@ description: "Explore how to enhance your Laravel application's test suite using
 tags: ["Laravel", "PHP", "Testing", "Pest"]
 ---
 
-
-
 # Testing Laravel Applications with Pest
 
 ![Laravel and Pest](/images/laravel-pest.jpg)

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Laravel Seeders and Pest: A Casual Look | mgalalm - blog</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="
+Let&rsquo;s dive into the world of Laravel seeders used with Pest.
+Setting Up Data with Seeders
+Here&rsquo;s a snippet of how you might use a seeder:">
+    <meta name="generator" content="Hugo 0.139.3">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/laravel/laravel-seeders-and-pest-a-casual-look/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/laravel/laravel-seeders-and-pest-a-casual-look/">
+  <meta property="og:site_name" content="mgalalm - blog">
+  <meta property="og:title" content="Laravel Seeders and Pest: A Casual Look">
+  <meta property="og:description" content="Let’s dive into the world of Laravel seeders used with Pest.
+Setting Up Data with Seeders Here’s a snippet of how you might use a seeder:">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="laravel">
+    <meta property="article:published_time" content="2024-12-04T20:50:12+00:00">
+    <meta property="article:modified_time" content="2024-12-04T20:50:12+00:00">
+
+  <meta itemprop="name" content="Laravel Seeders and Pest: A Casual Look">
+  <meta itemprop="description" content="Let’s dive into the world of Laravel seeders used with Pest.
+Setting Up Data with Seeders Here’s a snippet of how you might use a seeder:">
+  <meta itemprop="datePublished" content="2024-12-04T20:50:12+00:00">
+  <meta itemprop="dateModified" content="2024-12-04T20:50:12+00:00">
+  <meta itemprop="wordCount" content="358">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Laravel Seeders and Pest: A Casual Look">
+  <meta name="twitter:description" content="Let’s dive into the world of Laravel seeders used with Pest.
+Setting Up Data with Seeders Here’s a snippet of how you might use a seeder:">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        mgalalm - blog
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/laravel/" title="Laravel page">
+              Laravel
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Laravels
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Laravel Seeders and Pest: A Casual Look</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2024-12-04T20:50:12Z">December 4, 2024</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p><img src="/images/seeder.jpg" alt="Seeder">
+Let&rsquo;s dive into the world of Laravel seeders used with Pest.</p>
+<h2 id="setting-up-data-with-seeders">Setting Up Data with Seeders</h2>
+<p>Here&rsquo;s a snippet of how you might use a seeder:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span>$my_book <span style="color:#f92672">=</span> <span style="color:#a6e22e">Product</span><span style="color:#f92672">::</span><span style="color:#a6e22e">create</span>([<span style="color:#e6db74">&#39;name&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#e6db74">&#34;Zayn and Grandad&#39;s Van&#34;</span>]);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>$amazon_uk <span style="color:#f92672">=</span> <span style="color:#a6e22e">Retailer</span><span style="color:#f92672">::</span><span style="color:#a6e22e">create</span>([<span style="color:#e6db74">&#39;name&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#e6db74">&#39;Amazon UK&#39;</span>]);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>$stock <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Stock</span>([
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;price&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#ae81ff">2000</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;url&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#e6db74">&#39;http://www.amazon.uk&#39;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;in_stock&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#66d9ef">false</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;sku&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#e6db74">&#39;12345&#39;</span>,
+</span></span><span style="display:flex;"><span>]);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>$amazon_uk<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">addStock</span>($my_book, $stock);
+</span></span></code></pre></div><h2 id="writing-tests-with-pest">Writing Tests with Pest</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#a6e22e">uses</span>(<span style="color:#a6e22e">RefreshDatabase</span><span style="color:#f92672">::</span><span style="color:#a6e22e">class</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">it</span>(<span style="color:#e6db74">&#34;tracks products stock&#34;</span>, <span style="color:#66d9ef">function</span> () {
+</span></span><span style="display:flex;"><span>    $this<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">seed</span>(<span style="color:#a6e22e">RetailerWithProductSeeder</span><span style="color:#f92672">::</span><span style="color:#a6e22e">class</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    $product <span style="color:#f92672">=</span> <span style="color:#a6e22e">Product</span><span style="color:#f92672">::</span><span style="color:#a6e22e">first</span>();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    $this<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">assertFalse</span>($product<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">inStock</span>());
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">Http</span><span style="color:#f92672">::</span><span style="color:#a6e22e">fake</span>(<span style="color:#a6e22e">fn</span>() <span style="color:#f92672">=&gt;</span> [<span style="color:#e6db74">&#39;available&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#66d9ef">true</span>, <span style="color:#e6db74">&#39;price&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#ae81ff">29900</span>]);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Let&#39;s pretend the stock is available now
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    $this<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">artisan</span>(<span style="color:#e6db74">&#39;track&#39;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    $this<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">assertTrue</span>(<span style="color:#a6e22e">Product</span><span style="color:#f92672">::</span><span style="color:#a6e22e">first</span>()<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">inStock</span>());
+</span></span><span style="display:flex;"><span>});
+</span></span></code></pre></div><p>RefreshDatabase clears the database before each test, ensuring no old data messes with your results.</p>
+<h3 id="advantages-of-using-seeders-with-pest">Advantages of Using Seeders with Pest</h3>
+<ul>
+<li>Efficient Setup: Seeders mean you&rsquo;re not rewriting the same setup code for every test. It&rsquo;s like cooking dinner where the prep work is already done.</li>
+<li>Reuse: Seeders are reusable across your tests. Think of them as a favorite recipe you pull out whenever needed.</li>
+<li>Realistic Scenarios: They let you craft complex, real-world-like data setups. Great for when you want to test how your app behaves in varied conditions</li>
+</ul>
+<h3 id="on-readability">On Readability:</h3>
+<ul>
+<li><strong>Outside Context:</strong> When you see RetailerWithProductSeeder::class, you&rsquo;ve got to go look elsewhere to understand what data it&rsquo;s seeding. It&rsquo;s like a film reference that makes you want to check the movie out to get the full picture.</li>
+<li><strong>Debugging Complexity:</strong> If things go wrong, you&rsquo;re not just debugging the test; you&rsquo;re also looking at what the seeder&rsquo;s doing. Adds a bit of detective work to your debugging process.</li>
+<li><strong>Test Isolation:</strong> Mess with the seeder, and you might find a bunch of your tests falling apart. It&rsquo;s like a domino effect; one goes down, and they all might.</li>
+<li><strong>Implicit Reset:</strong> The RefreshDatabase trait ensures each test begins afresh, which is great, but might not be immediately obvious to someone new to the code.</li>
+</ul>
+<p>To sum up, combining seeders with Pest in Laravel is quite handy for managing your test data, but it does introduce some readability considerations. Make sure to keep your seeders well-documented and perhaps sprinkle some comments in your tests to make life easier for the next developer who looks at your code.</p><ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
+    &copy;  mgalalm - blog 2024 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
