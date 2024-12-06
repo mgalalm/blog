@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/laravel/laravel-seeders-and-pest-a-casual-look/</loc>
-    <lastmod>2024-12-04T20:50:12+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/laravel/</loc>
-    <lastmod>2024-12-04T20:50:12+00:00</lastmod>
+    <lastmod>2024-12-05T19:57:18+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/laravel/mastering-laravel-testing--turbocharge-your-code-coverage-with-xdebug/</loc>
+    <lastmod>2024-12-05T19:57:18+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2024-12-05T19:57:18+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/laravel/laravel-seeders-and-pest-a-casual-look/</loc>
     <lastmod>2024-12-04T20:50:12+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/fake/</loc>

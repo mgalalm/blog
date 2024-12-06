@@ -6,8 +6,15 @@
     <description>Recent content in Laravels on mgalalm - blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Dec 2024 20:50:12 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Dec 2024 19:57:18 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/laravel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mastering Laravel Testing  Turbocharge Your Code Coverage With Xdebug</title>
+      <link>http://localhost:1313/laravel/mastering-laravel-testing--turbocharge-your-code-coverage-with-xdebug/</link>
+      <pubDate>Thu, 05 Dec 2024 19:57:18 +0000</pubDate>
+      <guid>http://localhost:1313/laravel/mastering-laravel-testing--turbocharge-your-code-coverage-with-xdebug/</guid>
+      <description>&lt;p&gt;In the dynamic world of Laravel development, ensuring your code is well-tested isn&amp;rsquo;t just good practice; it&amp;rsquo;s essential for creating robust applications. &lt;strong&gt;Code coverage&lt;/strong&gt; serves as a critical metric to assess the extent to which your tests cover your codebase. This guide will walk you through setting up Xdebug for code coverage in Laravel, along with troubleshooting common issues. When you first attempt to run:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Laravel Seeders and Pest: A Casual Look</title>
       <link>http://localhost:1313/laravel/laravel-seeders-and-pest-a-casual-look/</link>
