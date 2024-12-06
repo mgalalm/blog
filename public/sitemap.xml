@@ -2,45 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/laravel/</loc>
+    <loc>http://localhost:50548/categories/</loc>
+    <lastmod>2024-12-06T21:47:23+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:50548/tags/exceptions/</loc>
+    <lastmod>2024-12-06T21:47:23+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:50548/tags/laravel/</loc>
+    <lastmod>2024-12-06T21:47:23+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:50548/laravel/</loc>
+    <lastmod>2024-12-06T21:47:23+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:50548/categories/laravel/</loc>
+    <lastmod>2024-12-06T21:47:23+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:50548/laravel/laravel-testing--mastering-exception-scenarios/</loc>
+    <lastmod>2024-12-06T21:47:23+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:50548/</loc>
+    <lastmod>2024-12-06T21:47:23+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:50548/categories/programming/</loc>
+    <lastmod>2024-12-06T21:47:23+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:50548/tags/</loc>
+    <lastmod>2024-12-06T21:47:23+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:50548/tags/testing/</loc>
+    <lastmod>2024-12-06T21:47:23+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:50548/tags/code-coverage/</loc>
     <lastmod>2024-12-05T19:57:18+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/laravel/mastering-laravel-testing--turbocharge-your-code-coverage-with-xdebug/</loc>
+    <loc>http://localhost:50548/laravel/mastering-laravel-testing--turbocharge-your-code-coverage-with-xdebug/</loc>
     <lastmod>2024-12-05T19:57:18+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:50548/tags/xdebug/</loc>
     <lastmod>2024-12-05T19:57:18+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/laravel/laravel-seeders-and-pest-a-casual-look/</loc>
+    <loc>http://localhost:50548/laravel/laravel-seeders-and-pest-a-casual-look/</loc>
     <lastmod>2024-12-04T20:50:12+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/fake/</loc>
+    <loc>http://localhost:50548/tags/pest/</loc>
+    <lastmod>2024-12-04T20:50:12+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:50548/tags/seeders/</loc>
+    <lastmod>2024-12-04T20:50:12+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:50548/tags/fake/</loc>
     <lastmod>2024-12-03T10:48:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/http/</loc>
+    <loc>http://localhost:50548/tags/http/</loc>
     <lastmod>2024-12-03T10:48:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/laravel/</loc>
+    <loc>http://localhost:50548/laravel/testing-with-fake-http-laravel/</loc>
     <lastmod>2024-12-03T10:48:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-12-03T10:48:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/testing/</loc>
-    <lastmod>2024-12-03T10:48:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/laravel/testing-with-fake-http-laravel/</loc>
-    <lastmod>2024-12-03T10:48:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/pest/</loc>
+    <loc>http://localhost:50548/tags/php/</loc>
     <lastmod>2024-12-02T15:48:00-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/php/</loc>
+    <loc>http://localhost:50548/laravel/testing-laravel-with-pest/</loc>
     <lastmod>2024-12-02T15:48:00-08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/laravel/testing-laravel-with-pest/</loc>
-    <lastmod>2024-12-02T15:48:00-08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
   </url>
 </urlset>

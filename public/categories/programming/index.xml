@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on mgalalm - blog</title>
+    <link>http://localhost:50548/categories/programming/</link>
+    <description>Recent content in Programming on mgalalm - blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Dec 2024 21:47:23 +0000</lastBuildDate>
+    <atom:link href="http://localhost:50548/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Laravel Testing  Mastering Exception Scenarios</title>
+      <link>http://localhost:50548/laravel/laravel-testing--mastering-exception-scenarios/</link>
+      <pubDate>Fri, 06 Dec 2024 21:47:23 +0000</pubDate>
+      <guid>http://localhost:50548/laravel/laravel-testing--mastering-exception-scenarios/</guid>
+      <description>&lt;h1 id=&#34;laravel-testing-mastering-exception-scenarios&#34;&gt;Laravel Testing: Mastering Exception Scenarios&lt;/h1&gt;&#xA;&lt;p&gt;In Laravel development, testing is paramount for ensuring your application behaves as expected, especially when dealing with exceptions. Whether they&amp;rsquo;re custom or built-in, exceptions are an integral part of robust error handling. Let&amp;rsquo;s explore how to effectively test for both custom and non-custom exceptions in Laravel.&lt;/p&gt;&#xA;&lt;h2 id=&#34;understanding-exceptions-in-laravel&#34;&gt;Understanding Exceptions in Laravel&lt;/h2&gt;&#xA;&lt;p&gt;Exceptions in Laravel fall into two categories:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Non-Custom Exceptions&lt;/strong&gt;: These are PHP&amp;rsquo;s built-in exceptions like &lt;code&gt;Exception&lt;/code&gt;, &lt;code&gt;InvalidArgumentException&lt;/code&gt;, etc., which Laravel extends or uses.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

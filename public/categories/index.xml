@@ -2,10 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on mgalalm - blog</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>http://localhost:50548/categories/</link>
     <description>Recent content in Categories on mgalalm - blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Dec 2024 21:47:23 +0000</lastBuildDate>
+    <atom:link href="http://localhost:50548/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Laravel</title>
+      <link>http://localhost:50548/categories/laravel/</link>
+      <pubDate>Fri, 06 Dec 2024 21:47:23 +0000</pubDate>
+      <guid>http://localhost:50548/categories/laravel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>http://localhost:50548/categories/programming/</link>
+      <pubDate>Fri, 06 Dec 2024 21:47:23 +0000</pubDate>
+      <guid>http://localhost:50548/categories/programming/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

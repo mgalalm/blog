@@ -1,13 +1,16 @@
 +++
 date = '2024-12-05T19:57:18Z'
 draft = false
-title = 'Mastering Laravel Testing  Turbocharge Your Code Coverage With Xdebug'
+title = 'Turbocharge Your Code Coverage With Xdebug'
+tags = ['Laravel', 'Testing', 'Code Coverage', 'Xdebug']
 +++
 
 ![Laravel Testing](/images/coverage.jpg)
 
-In the dynamic world of Laravel development, ensuring your code is well-tested isn't just good practice; it's essential for creating robust applications. **Code coverage** serves as a critical metric to assess the extent to which your tests cover your codebase. This guide will walk you through setting up Xdebug for code coverage in Laravel, along with troubleshooting common issues. When you first attempt to run:
-<!--more-->
+In the dynamic world of Laravel development, ensuring your code is well-tested isn't just good practice; it's essential for creating robust applications. **Code coverage** serves as a critical metric to assess the extent to which your tests cover your codebase. <!--more-->
+
+This guide will walk you through setting up Xdebug for code coverage in Laravel, along with troubleshooting common issues. When you first attempt to run:
+
 ```sh
 php artisan test --coverage
 ```

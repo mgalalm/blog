@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=50548&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
     <title>Testing with Fake HTTP Requests in Laravel | mgalalm - blog</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Testing with Fake HTTP Requests in Laravel
-
-In Laravel, one of the powerful tools for testing is the ability to simulate HTTP responses without actually hitting an external API. This is particularly useful when you need to ensure your application behaves correctly regardless of the API&rsquo;s response. Here&rsquo;s how you can use Http::fake() to test a scenario where you&rsquo;re checking the stock status and price of an item from an Amazon-like service.">
+    <meta name="description" content="
+In Laravel, one of the powerful tools for testing is the ability to simulate HTTP responses without actually hitting an external API. This is particularly useful when you need to ensure your application behaves correctly regardless of the API&rsquo;s response.">
     <meta name="generator" content="Hugo 0.139.3">
     
     
@@ -32,13 +31,13 @@ In Laravel, one of the powerful tools for testing is the ability to simulate HTT
     
 
     
-      <link rel="canonical" href="http://localhost:1313/laravel/testing-with-fake-http-laravel/">
+      <link rel="canonical" href="http://localhost:50548/laravel/testing-with-fake-http-laravel/">
     
 
-    <meta property="og:url" content="http://localhost:1313/laravel/testing-with-fake-http-laravel/">
+    <meta property="og:url" content="http://localhost:50548/laravel/testing-with-fake-http-laravel/">
   <meta property="og:site_name" content="mgalalm - blog">
   <meta property="og:title" content="Testing with Fake HTTP Requests in Laravel">
-  <meta property="og:description" content="Testing with Fake HTTP Requests in Laravel In Laravel, one of the powerful tools for testing is the ability to simulate HTTP responses without actually hitting an external API. This is particularly useful when you need to ensure your application behaves correctly regardless of the API’s response. Here’s how you can use Http::fake() to test a scenario where you’re checking the stock status and price of an item from an Amazon-like service.">
+  <meta property="og:description" content="In Laravel, one of the powerful tools for testing is the ability to simulate HTTP responses without actually hitting an external API. This is particularly useful when you need to ensure your application behaves correctly regardless of the API’s response.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="laravel">
@@ -50,14 +49,14 @@ In Laravel, one of the powerful tools for testing is the ability to simulate HTT
     <meta property="article:tag" content="Fake">
 
   <meta itemprop="name" content="Testing with Fake HTTP Requests in Laravel">
-  <meta itemprop="description" content="Testing with Fake HTTP Requests in Laravel In Laravel, one of the powerful tools for testing is the ability to simulate HTTP responses without actually hitting an external API. This is particularly useful when you need to ensure your application behaves correctly regardless of the API’s response. Here’s how you can use Http::fake() to test a scenario where you’re checking the stock status and price of an item from an Amazon-like service.">
+  <meta itemprop="description" content="In Laravel, one of the powerful tools for testing is the ability to simulate HTTP responses without actually hitting an external API. This is particularly useful when you need to ensure your application behaves correctly regardless of the API’s response.">
   <meta itemprop="datePublished" content="2024-12-03T10:48:00+00:00">
   <meta itemprop="dateModified" content="2024-12-03T10:48:00+00:00">
-  <meta itemprop="wordCount" content="368">
+  <meta itemprop="wordCount" content="361">
   <meta itemprop="keywords" content="Laravel,Testing,HTTP,Fake">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Testing with Fake HTTP Requests in Laravel">
-  <meta name="twitter:description" content="Testing with Fake HTTP Requests in Laravel In Laravel, one of the powerful tools for testing is the ability to simulate HTTP responses without actually hitting an external API. This is particularly useful when you need to ensure your application behaves correctly regardless of the API’s response. Here’s how you can use Http::fake() to test a scenario where you’re checking the stock status and price of an item from an Amazon-like service.">
+  <meta name="twitter:description" content="In Laravel, one of the powerful tools for testing is the ability to simulate HTTP responses without actually hitting an external API. This is particularly useful when you need to ensure your application behaves correctly regardless of the API’s response.">
 
 	
   </head><body class="ma0 avenir bg-near-white development">
@@ -119,9 +118,9 @@ In Laravel, one of the powerful tools for testing is the ability to simulate HTT
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h1 id="testing-with-fake-http-requests-in-laravel">Testing with Fake HTTP Requests in Laravel</h1>
-<p><img src="/images/fake-http.jpg" alt="Fake HTTP"></p>
-<p>In Laravel, one of the powerful tools for testing is the ability to simulate HTTP responses without actually hitting an external API. This is particularly useful when you need to ensure your application behaves correctly regardless of the API&rsquo;s response. Here&rsquo;s how you can use <code>Http::fake()</code> to test a scenario where you&rsquo;re checking the stock status and price of an item from an Amazon-like service.</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p><img src="/images/fake-http.jpg" alt="Fake HTTP"></p>
+<p>In Laravel, one of the powerful tools for testing is the ability to simulate HTTP responses without actually hitting an external API. This is particularly useful when you need to ensure your application behaves correctly regardless of the API&rsquo;s response.</p>
+<p>Here&rsquo;s how you can use <code>Http::fake()</code> to test a scenario where you&rsquo;re checking the stock status and price of an item from an Amazon-like service.</p>
 <h2 id="the-tracking-functionality">The Tracking Functionality</h2>
 <p>Let&rsquo;s consider a method <code>track()</code> in a <code>Stock</code> model which checks the stock status and price from an external service:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">track</span>()
@@ -172,8 +171,7 @@ In Laravel, one of the powerful tools for testing is the ability to simulate HTT
 <li>Speed: Reduces test time by avoiding actual HTTP requests.</li>
 <li>Isolation: Keeps tests isolated from the network and external dependencies, making them more reliable and easier to maintain.</li>
 </ul>
-<p>By leveraging Http::fake(), you can thoroughly test how your application handles different scenarios from external APIs without the need for actual integration with those services during your test runs. This approach is essential for developing robust, reliable, and efficient applications.</p>
-<ul class="pa0">
+<p>By leveraging Http::fake(), you can thoroughly test how your application handles different scenarios from external APIs without the need for actual integration with those services during your test runs. This approach is essential for developing robust, reliable, and efficient applications.</p><ul class="pa0">
   
    <li class="list di">
      <a href="/tags/laravel/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Laravel</a>
@@ -221,7 +219,7 @@ In Laravel, one of the powerful tools for testing is the ability to simulate HTT
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:50548/" >
     &copy;  mgalalm - blog 2024 
   </a>
     <div><div class="ananke-socials"></div>

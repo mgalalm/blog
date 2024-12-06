@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Mastering Laravel Testing  Turbocharge Your Code Coverage With Xdebug | mgalalm - blog</title>
+    <title>Turbocharge Your Code Coverage With Xdebug | mgalalm - blog</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="
-In the dynamic world of Laravel development, ensuring your code is well-tested isn&rsquo;t just good practice; it&rsquo;s essential for creating robust applications. Code coverage serves as a critical metric to assess the extent to which your tests cover your codebase. This guide will walk you through setting up Xdebug for code coverage in Laravel, along with troubleshooting common issues. When you first attempt to run:">
+In the dynamic world of Laravel development, ensuring your code is well-tested isn&rsquo;t just good practice; it&rsquo;s essential for creating robust applications. Code coverage serves as a critical metric to assess the extent to which your tests cover your codebase.">
     <meta name="generator" content="Hugo 0.139.3">
     
     
@@ -31,13 +31,13 @@ In the dynamic world of Laravel development, ensuring your code is well-tested i
     
 
     
-      <link rel="canonical" href="http://localhost:50548/laravel/mastering-laravel-testing--turbocharge-your-code-coverage-with-xdebug/">
+      <link rel="canonical" href="http://localhost:50548/laravel/mastering-laravel-testing-turbocharge-your-code-coverage-with-xdebug/">
     
 
-    <meta property="og:url" content="http://localhost:50548/laravel/mastering-laravel-testing--turbocharge-your-code-coverage-with-xdebug/">
+    <meta property="og:url" content="http://localhost:50548/laravel/mastering-laravel-testing-turbocharge-your-code-coverage-with-xdebug/">
   <meta property="og:site_name" content="mgalalm - blog">
-  <meta property="og:title" content="Mastering Laravel Testing  Turbocharge Your Code Coverage With Xdebug">
-  <meta property="og:description" content="In the dynamic world of Laravel development, ensuring your code is well-tested isn’t just good practice; it’s essential for creating robust applications. Code coverage serves as a critical metric to assess the extent to which your tests cover your codebase. This guide will walk you through setting up Xdebug for code coverage in Laravel, along with troubleshooting common issues. When you first attempt to run:">
+  <meta property="og:title" content="Turbocharge Your Code Coverage With Xdebug">
+  <meta property="og:description" content="In the dynamic world of Laravel development, ensuring your code is well-tested isn’t just good practice; it’s essential for creating robust applications. Code coverage serves as a critical metric to assess the extent to which your tests cover your codebase.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="laravel">
@@ -48,15 +48,15 @@ In the dynamic world of Laravel development, ensuring your code is well-tested i
     <meta property="article:tag" content="Code Coverage">
     <meta property="article:tag" content="Xdebug">
 
-  <meta itemprop="name" content="Mastering Laravel Testing  Turbocharge Your Code Coverage With Xdebug">
-  <meta itemprop="description" content="In the dynamic world of Laravel development, ensuring your code is well-tested isn’t just good practice; it’s essential for creating robust applications. Code coverage serves as a critical metric to assess the extent to which your tests cover your codebase. This guide will walk you through setting up Xdebug for code coverage in Laravel, along with troubleshooting common issues. When you first attempt to run:">
+  <meta itemprop="name" content="Turbocharge Your Code Coverage With Xdebug">
+  <meta itemprop="description" content="In the dynamic world of Laravel development, ensuring your code is well-tested isn’t just good practice; it’s essential for creating robust applications. Code coverage serves as a critical metric to assess the extent to which your tests cover your codebase.">
   <meta itemprop="datePublished" content="2024-12-05T19:57:18+00:00">
   <meta itemprop="dateModified" content="2024-12-05T19:57:18+00:00">
   <meta itemprop="wordCount" content="188">
   <meta itemprop="keywords" content="Laravel,Testing,Code Coverage,Xdebug">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Mastering Laravel Testing  Turbocharge Your Code Coverage With Xdebug">
-  <meta name="twitter:description" content="In the dynamic world of Laravel development, ensuring your code is well-tested isn’t just good practice; it’s essential for creating robust applications. Code coverage serves as a critical metric to assess the extent to which your tests cover your codebase. This guide will walk you through setting up Xdebug for code coverage in Laravel, along with troubleshooting common issues. When you first attempt to run:">
+  <meta name="twitter:title" content="Turbocharge Your Code Coverage With Xdebug">
+  <meta name="twitter:description" content="In the dynamic world of Laravel development, ensuring your code is well-tested isn’t just good practice; it’s essential for creating robust applications. Code coverage serves as a critical metric to assess the extent to which your tests cover your codebase.">
 
 	
   </head><body class="ma0 avenir bg-near-white development">
@@ -108,7 +108,7 @@ In the dynamic world of Laravel development, ensuring your code is well-tested i
           
         Laravel
       </aside><div id="sharing" class="mt3 ananke-socials"></div>
-<h1 class="f1 athelas mt3 mb1">Mastering Laravel Testing  Turbocharge Your Code Coverage With Xdebug</h1>
+<h1 class="f1 athelas mt3 mb1">Turbocharge Your Code Coverage With Xdebug</h1>
       
       
       
@@ -119,7 +119,8 @@ In the dynamic world of Laravel development, ensuring your code is well-tested i
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p><img src="/images/coverage.jpg" alt="Laravel Testing"></p>
-<p>In the dynamic world of Laravel development, ensuring your code is well-tested isn&rsquo;t just good practice; it&rsquo;s essential for creating robust applications. <strong>Code coverage</strong> serves as a critical metric to assess the extent to which your tests cover your codebase. This guide will walk you through setting up Xdebug for code coverage in Laravel, along with troubleshooting common issues. When you first attempt to run:</p>
+<p>In the dynamic world of Laravel development, ensuring your code is well-tested isn&rsquo;t just good practice; it&rsquo;s essential for creating robust applications. <strong>Code coverage</strong> serves as a critical metric to assess the extent to which your tests cover your codebase.</p>
+<p>This guide will walk you through setting up Xdebug for code coverage in Laravel, along with troubleshooting common issues. When you first attempt to run:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>php artisan test --coverage
 </span></span></code></pre></div><p>you might encounter an error like:
 ERROR  Code coverage driver not available. Did you set Xdebug&rsquo;s coverage mode?</p>

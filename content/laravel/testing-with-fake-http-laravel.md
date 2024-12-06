@@ -6,10 +6,12 @@ tags: ["Laravel", "Testing", "HTTP", "Fake"]
 image: "images/fake-http.jpg"
 ---
 
-# Testing with Fake HTTP Requests in Laravel
 ![Fake HTTP](/images/fake-http.jpg)
 
-In Laravel, one of the powerful tools for testing is the ability to simulate HTTP responses without actually hitting an external API. This is particularly useful when you need to ensure your application behaves correctly regardless of the API's response. Here's how you can use `Http::fake()` to test a scenario where you're checking the stock status and price of an item from an Amazon-like service.
+In Laravel, one of the powerful tools for testing is the ability to simulate HTTP responses without actually hitting an external API. This is particularly useful when you need to ensure your application behaves correctly regardless of the API's response. <!--more-->
+
+Here's how you can use `Http::fake()` to test a scenario where you're checking the stock status and price of an item from an Amazon-like service.
+
 
 ## The Tracking Functionality
 
