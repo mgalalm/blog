@@ -3,10 +3,13 @@ languageCode = 'en-us'
 title = 'mgalalm - blog'
 theme = 'ananke'
 sectionPagesMenu = 'main'
+pluralizelisttitles = false
 [[menu.Main]]
   identifier = "laravel"
   name       = "Laravel"
   url        = "/laravel/"
   weight     = 10
-  
+
+
+
 
