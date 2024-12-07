@@ -22,5 +22,19 @@
       <guid>http://localhost:1313/categories/programming/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Testing</title>
+      <link>http://localhost:1313/categories/testing/</link>
+      <pubDate>Thu, 05 Dec 2024 19:57:18 +0000</pubDate>
+      <guid>http://localhost:1313/categories/testing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PHP</title>
+      <link>http://localhost:1313/categories/php/</link>
+      <pubDate>Mon, 02 Dec 2024 15:48:00 -0800</pubDate>
+      <guid>http://localhost:1313/categories/php/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

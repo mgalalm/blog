@@ -3,6 +3,7 @@ date = '2024-12-05T19:57:18Z'
 draft = false
 title = 'Turbocharge Your Code Coverage With Xdebug'
 tags = ['Laravel', 'Testing', 'Code Coverage', 'Xdebug']
+categories = ['Testing', 'Laravel']
 +++
 
 ![Laravel Testing](/images/coverage.jpg)

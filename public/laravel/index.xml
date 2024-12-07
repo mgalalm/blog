@@ -6,8 +6,15 @@
     <description>Recent content in Laravel on mgalalm - blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Dec 2024 21:47:23 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Dec 2024 16:06:15 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/laravel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mocking Classes With Real Time Facades</title>
+      <link>http://localhost:1313/laravel/mocking-classes-with-real-time-facades/</link>
+      <pubDate>Sat, 07 Dec 2024 16:06:15 +0000</pubDate>
+      <guid>http://localhost:1313/laravel/mocking-classes-with-real-time-facades/</guid>
+      <description>&lt;p&gt;In PHP, particularly within frameworks like Laravel, facades provide a static-like interface to classes available in the service container. Here, we delve into the concept of real-time facades, which allow you to treat any class in your application as if it were a facade, enhancing your ability to mock dependencies for testing&lt;/p&gt;&#xA;&lt;h3 id=&#34;understanding-real-time-facades-for-mocking&#34;&gt;Understanding Real-Time Facades for Mocking&lt;/h3&gt;&#xA;&lt;p&gt;When employing real-time facades, you essentially use the Facades namespace before the path of the class you intend to mock or interact with. This approach dynamically creates facade access for any class without needing to define a specific facade class.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Laravel Testing  Mastering Exception Scenarios</title>
       <link>http://localhost:1313/laravel/laravel-testing-mastering-exception-scenarios/</link>
