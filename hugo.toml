@@ -1,14 +1,75 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'mgalalm - blog'
-theme = 'ananke'
+theme = 'tailwind'
 sectionPagesMenu = 'main'
 pluralizelisttitles = false
-[[menu.Main]]
-  identifier = "laravel"
-  name       = "Laravel"
-  url        = "/laravel/"
-  weight     = 10
+
+[params]
+  contentTypeName = "laravel"
+  description = 'A blog about web development, programming, and technology.'
+  keywords = 'web development, programming, technology, blog'
+  author = 'mgalalm'
+
+[menu]
+  [[menu.Main]]
+    identifier = "home"
+    name       = "Home"
+    url        = "/"
+    weight     = 1
+
+  [[menu.Main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about/"
+    weight     = 2
+
+  # [[menu.Main]]
+  #   identifier = "contact"
+  #   name       = "Contact"
+  #   url        = "/contact/"
+  #   weight     = 3
+
+  # [[menu.Main]]
+  #   identifier = "blog"
+  #   name       = "Blog"
+  #   url        = "/blog/"
+  #   weight     = 4
+
+  # [[menu.Main]]
+  #   identifier = "projects"
+  #   name       = "Projects"
+  #   url        = "/projects/"
+  #   weight     = 5
+
+  # [[menu.Main]]
+  #   identifier = "services"
+  #   name       = "Services"
+  #   url        = "/services/"
+  #   weight     = 6
+
+  # [[menu.Main]]
+  #   identifier = "portfolio"
+  #   name       = "Portfolio"
+  #   url        = "/portfolio/"
+  #   weight     = 7
+
+  # [[menu.Main]]
+  #   identifier = "pricing"
+  #   name       = "Pricing"
+  #   url        = "/pricing/"
+  #   weight     = 8
+
+  # [[menu.Main]]
+  #   identifier = "team"
+  #   name       = "Team"
+  #   url        = "/team/"
+  #   weight     = 9
+  [[menu.Main]]
+    identifier = "laravel"
+    name       = "Laravel"
+    url        = "/laravel/"
+    weight     = 10
 
 
 
