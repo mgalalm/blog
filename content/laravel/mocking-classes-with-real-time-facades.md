@@ -6,7 +6,9 @@ title = 'Mocking Classes With Real Time Facades'
 
 ![Real-Time Facades](/images/mocking-with-facade.jpg)
 
-In PHP, particularly within frameworks like Laravel, facades provide a static-like interface to classes available in the service container. Here, we delve into the concept of real-time facades, which allow you to treat any class in your application as if it were a facade, enhancing your ability to mock dependencies for testing
+In PHP, particularly within frameworks like Laravel, facades provide a static-like interface to classes available in the service container. Here, we delve into the concept of real-time facades, which allow you to treat any class in your application as if it were a facade, enhancing your ability to mock dependencies for testing. 
+
+<!--more-->
 
 ### Understanding Real-Time Facades for Mocking
 
