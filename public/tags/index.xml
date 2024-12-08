@@ -6,13 +6,34 @@
     <description>Recent content in Tags on mgalalm - blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Dec 2024 21:30:02 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Dec 2024 21:39:10 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Laravel</title>
       <link>http://localhost:1313/tags/laravel/</link>
-      <pubDate>Sat, 07 Dec 2024 21:30:02 +0000</pubDate>
+      <pubDate>Sun, 08 Dec 2024 21:39:10 +0000</pubDate>
       <guid>http://localhost:1313/tags/laravel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mocking</title>
+      <link>http://localhost:1313/tags/mocking/</link>
+      <pubDate>Sun, 08 Dec 2024 21:39:10 +0000</pubDate>
+      <guid>http://localhost:1313/tags/mocking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PHP</title>
+      <link>http://localhost:1313/tags/php/</link>
+      <pubDate>Sun, 08 Dec 2024 21:39:10 +0000</pubDate>
+      <guid>http://localhost:1313/tags/php/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Testing</title>
+      <link>http://localhost:1313/tags/testing/</link>
+      <pubDate>Sun, 08 Dec 2024 21:39:10 +0000</pubDate>
+      <guid>http://localhost:1313/tags/testing/</guid>
       <description></description>
     </item>
     <item>
@@ -20,13 +41,6 @@
       <link>http://localhost:1313/tags/mockery/</link>
       <pubDate>Sat, 07 Dec 2024 21:30:02 +0000</pubDate>
       <guid>http://localhost:1313/tags/mockery/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Testing</title>
-      <link>http://localhost:1313/tags/testing/</link>
-      <pubDate>Sat, 07 Dec 2024 21:30:02 +0000</pubDate>
-      <guid>http://localhost:1313/tags/testing/</guid>
       <description></description>
     </item>
     <item>
@@ -41,13 +55,6 @@
       <link>http://localhost:1313/tags/facades/</link>
       <pubDate>Sat, 07 Dec 2024 16:06:15 +0000</pubDate>
       <guid>http://localhost:1313/tags/facades/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mocking</title>
-      <link>http://localhost:1313/tags/mocking/</link>
-      <pubDate>Sat, 07 Dec 2024 16:06:15 +0000</pubDate>
-      <guid>http://localhost:1313/tags/mocking/</guid>
       <description></description>
     </item>
     <item>
@@ -97,13 +104,6 @@
       <link>http://localhost:1313/tags/http/</link>
       <pubDate>Tue, 03 Dec 2024 10:48:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/http/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>PHP</title>
-      <link>http://localhost:1313/tags/php/</link>
-      <pubDate>Mon, 02 Dec 2024 15:48:00 -0800</pubDate>
-      <guid>http://localhost:1313/tags/php/</guid>
       <description></description>
     </item>
   </channel>

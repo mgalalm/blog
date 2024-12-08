@@ -11,6 +11,9 @@ pluralizelisttitles = false
   keywords = 'web development, programming, technology, blog'
   author = 'mgalalm'
 
+[services.googleAnalytics]
+  id = 'G-2M6HFXVW04'
+
 [menu]
   [[menu.Main]]
     identifier = "home"
@@ -70,7 +73,3 @@ pluralizelisttitles = false
     name       = "Laravel"
     url        = "/laravel/"
     weight     = 10
-
-
-
-
