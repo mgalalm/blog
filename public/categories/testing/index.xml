@@ -6,8 +6,15 @@
     <description>Recent content in Testing on mgalalm - blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Dec 2024 19:57:18 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Dec 2024 21:30:02 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/testing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stubs Mocks Double and Spies When to Use One Over the Other?</title>
+      <link>http://localhost:1313/laravel/stubs-mocks-double-and-spies-when-to-use-one-over-the-other/</link>
+      <pubDate>Sat, 07 Dec 2024 21:30:02 +0000</pubDate>
+      <guid>http://localhost:1313/laravel/stubs-mocks-double-and-spies-when-to-use-one-over-the-other/</guid>
+      <description>&lt;p&gt;In software development, especially when working with frameworks like Laravel, unit testing is crucial for ensuring code reliability and maintainability. Laravel integrates well with Mockery, a mocking framework for PHP, to help developers create test doubles. Let&amp;rsquo;s delve into the concepts of Stubs, Mocks, Doubles, and Spies, and how they&amp;rsquo;re used in Laravel testing scenarios.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Turbocharge Your Code Coverage With Xdebug</title>
       <link>http://localhost:1313/laravel/mastering-laravel-testing-turbocharge-your-code-coverage-with-xdebug/</link>

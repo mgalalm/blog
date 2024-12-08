@@ -13,7 +13,7 @@
       <link>http://localhost:1313/laravel/laravel-seeders-and-pest-a-casual-look/</link>
       <pubDate>Wed, 04 Dec 2024 20:50:12 +0000</pubDate>
       <guid>http://localhost:1313/laravel/laravel-seeders-and-pest-a-casual-look/</guid>
-      <description>&lt;p&gt;&lt;div class=&#34;not-prose&#34;&gt;&#xA;&lt;figure&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/seeder.jpg&#34;&#xA;      alt=&#34;Seeder&#34; &#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&#xA;  &lt;/figure&gt;&lt;/div&gt;&#xA;&#xA;Let&amp;rsquo;s dive into the world of Laravel seeders used with Pest.&lt;/p&gt;&#xA;&lt;h2 id=&#34;setting-up-data-with-seeders&#34;&gt;Setting Up Data with Seeders&lt;/h2&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s a snippet of how you might use a seeder:&lt;/p&gt;</description>
+      <description>&lt;p&gt;Let&amp;rsquo;s dive into the world of Laravel seeders used with Pest.&lt;/p&gt;&#xA;&lt;h2 id=&#34;setting-up-data-with-seeders&#34;&gt;Setting Up Data with Seeders&lt;/h2&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s a snippet of how you might use a seeder:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Testing Laravel Applications with Pest</title>

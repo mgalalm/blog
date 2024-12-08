@@ -6,14 +6,28 @@
     <description>Recent content in Testing on mgalalm - blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Dec 2024 21:47:23 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Dec 2024 21:30:02 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/testing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stubs Mocks Double and Spies When to Use One Over the Other?</title>
+      <link>http://localhost:1313/laravel/stubs-mocks-double-and-spies-when-to-use-one-over-the-other/</link>
+      <pubDate>Sat, 07 Dec 2024 21:30:02 +0000</pubDate>
+      <guid>http://localhost:1313/laravel/stubs-mocks-double-and-spies-when-to-use-one-over-the-other/</guid>
+      <description>&lt;p&gt;In software development, especially when working with frameworks like Laravel, unit testing is crucial for ensuring code reliability and maintainability. Laravel integrates well with Mockery, a mocking framework for PHP, to help developers create test doubles. Let&amp;rsquo;s delve into the concepts of Stubs, Mocks, Doubles, and Spies, and how they&amp;rsquo;re used in Laravel testing scenarios.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mocking Classes With Real Time Facades</title>
+      <link>http://localhost:1313/laravel/mocking-classes-with-real-time-facades/</link>
+      <pubDate>Sat, 07 Dec 2024 16:06:15 +0000</pubDate>
+      <guid>http://localhost:1313/laravel/mocking-classes-with-real-time-facades/</guid>
+      <description>&lt;p&gt;In PHP, particularly within frameworks like Laravel, facades provide a static-like interface to classes available in the service container. Here, we delve into the concept of real-time facades, which allow you to treat any class in your application as if it were a facade, enhancing your ability to mock dependencies for testing.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Laravel Testing  Mastering Exception Scenarios</title>
       <link>http://localhost:1313/laravel/laravel-testing-mastering-exception-scenarios/</link>
       <pubDate>Fri, 06 Dec 2024 21:47:23 +0000</pubDate>
       <guid>http://localhost:1313/laravel/laravel-testing-mastering-exception-scenarios/</guid>
-      <description>&lt;p&gt;&lt;div class=&#34;not-prose&#34;&gt;&#xA;&lt;figure&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/testing-custom-exception.jpeg&#34;&#xA;      alt=&#34;Testing custom exception&#34; &#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&#xA;  &lt;/figure&gt;&lt;/div&gt;&#xA;&#xA;Testing Exceptions. In this post, we&amp;rsquo;ll explore how to create and test custom exceptions effectively, enhancing the reliability of your applications.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Testing Exceptions. In this post, we&amp;rsquo;ll explore how to create and test custom exceptions effectively, enhancing the reliability of your applications.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Turbocharge Your Code Coverage With Xdebug</title>
@@ -27,7 +41,7 @@
       <link>http://localhost:1313/laravel/laravel-seeders-and-pest-a-casual-look/</link>
       <pubDate>Wed, 04 Dec 2024 20:50:12 +0000</pubDate>
       <guid>http://localhost:1313/laravel/laravel-seeders-and-pest-a-casual-look/</guid>
-      <description>&lt;p&gt;&lt;div class=&#34;not-prose&#34;&gt;&#xA;&lt;figure&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/seeder.jpg&#34;&#xA;      alt=&#34;Seeder&#34; &#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&#xA;  &lt;/figure&gt;&lt;/div&gt;&#xA;&#xA;Let&amp;rsquo;s dive into the world of Laravel seeders used with Pest.&lt;/p&gt;&#xA;&lt;h2 id=&#34;setting-up-data-with-seeders&#34;&gt;Setting Up Data with Seeders&lt;/h2&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s a snippet of how you might use a seeder:&lt;/p&gt;</description>
+      <description>&lt;p&gt;Let&amp;rsquo;s dive into the world of Laravel seeders used with Pest.&lt;/p&gt;&#xA;&lt;h2 id=&#34;setting-up-data-with-seeders&#34;&gt;Setting Up Data with Seeders&lt;/h2&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s a snippet of how you might use a seeder:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Testing with Fake HTTP Requests in Laravel</title>

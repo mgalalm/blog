@@ -13,7 +13,7 @@
       <link>http://localhost:1313/laravel/stubs-mocks-double-and-spies-when-to-use-one-over-the-other/</link>
       <pubDate>Sat, 07 Dec 2024 21:30:02 +0000</pubDate>
       <guid>http://localhost:1313/laravel/stubs-mocks-double-and-spies-when-to-use-one-over-the-other/</guid>
-      <description>&lt;p&gt;In software development, especially when working with frameworks like Laravel, unit testing is crucial for ensuring code reliability and maintainability. Laravel integrates well with Mockery, a mocking framework for PHP, to help developers create test doubles. Let&amp;rsquo;s delve into the concepts of Stubs, Mocks, Doubles, and Spies, and how they&amp;rsquo;re used in Laravel testing scenarios.&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-are-test-doubles&#34;&gt;What are Test Doubles?&lt;/h3&gt;&#xA;&lt;p&gt;Test doubles are objects that stand in for real objects during testing. They simulate the behavior of complex, real objects to isolate the code being tested. The term &amp;ldquo;test double&amp;rdquo; was coined by Gerard Meszaros to describe these stand-ins, which include stubs, mocks, dummies, fakes, and spies.&lt;/p&gt;</description>
+      <description>&lt;p&gt;In software development, especially when working with frameworks like Laravel, unit testing is crucial for ensuring code reliability and maintainability. Laravel integrates well with Mockery, a mocking framework for PHP, to help developers create test doubles. Let&amp;rsquo;s delve into the concepts of Stubs, Mocks, Doubles, and Spies, and how they&amp;rsquo;re used in Laravel testing scenarios.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

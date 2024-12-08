@@ -13,7 +13,7 @@
       <link>http://localhost:1313/laravel/laravel-testing-mastering-exception-scenarios/</link>
       <pubDate>Fri, 06 Dec 2024 21:47:23 +0000</pubDate>
       <guid>http://localhost:1313/laravel/laravel-testing-mastering-exception-scenarios/</guid>
-      <description>&lt;p&gt;&lt;div class=&#34;not-prose&#34;&gt;&#xA;&lt;figure&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/testing-custom-exception.jpeg&#34;&#xA;      alt=&#34;Testing custom exception&#34; &#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&#xA;  &lt;/figure&gt;&lt;/div&gt;&#xA;&#xA;Testing Exceptions. In this post, we&amp;rsquo;ll explore how to create and test custom exceptions effectively, enhancing the reliability of your applications.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Testing Exceptions. In this post, we&amp;rsquo;ll explore how to create and test custom exceptions effectively, enhancing the reliability of your applications.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
