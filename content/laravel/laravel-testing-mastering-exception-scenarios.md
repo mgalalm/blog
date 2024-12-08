@@ -4,9 +4,9 @@ draft = false
 title = 'Laravel Testing  Mastering Exception Scenarios'
 tags = ["Laravel", "Testing", "Exceptions"]
 categories = ["Programming", "Laravel"]
+image = '/images/testing-custom-exception.jpeg'
 +++
 
-![Testing custom exception](/images/testing-custom-exception.jpeg)
 Testing Exceptions. In this post, we'll explore how to create and test custom exceptions effectively, enhancing the reliability of your applications.
 <!--more-->
 

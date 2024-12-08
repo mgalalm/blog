@@ -5,6 +5,7 @@ draft: false
 description: "Explore how to enhance your Laravel application's test suite using Pest, a modern PHP testing framework."
 tags: ["Laravel", "PHP", "Testing", "Pest"]
 categories: ["PHP", "Laravel", "Testing"] 
+image: "/images/laravel-pest.jpg"
 ---
 
 ![Laravel and Pest](/images/laravel-pest.jpg)

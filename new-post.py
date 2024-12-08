@@ -2,7 +2,19 @@ import os
 title = input("Title: ")
 # lower case remove spaces and replace with dashes, remove special characters
 title = "".join([c if c.isalnum() else "-" for c in title]).lower()
-title = title.replace(" ", "-")
+
+# replace multiple spaces between words with a single dash
+while "--" in title:
+    title = title.replace("--", "-")
+# remove leading and trailing dashes
+title = title.strip("-")
+
+
+# title = title.replace(" ", "-")
+
+# while "--" in title:
+#     title = title.replace("--", "-")
+# title = title.replace(" ", "-") /
 
 # title = title.lower().replace(" ", "-")
 # loop over the folders in the content directory and let the user select one

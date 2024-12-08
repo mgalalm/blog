@@ -1,43 +1,40 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-  <title>Laravel Seeders and Pest: A Casual Look :: mgalalm - blog - Example site for hugo-theme-tailwind</title>
+  <title>Stubs Mocks Double and Spies When to Use One Over the Other? :: mgalalm - blog - Example site for hugo-theme-tailwind</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta
   name="description"
-  content="Let&rsquo;s dive into the world of Laravel seeders used with Pest.
-Setting Up Data with Seeders Here&rsquo;s a snippet of how you might use a seeder:
+  content="In software development, especially when working with frameworks like Laravel, unit testing is crucial for ensuring code reliability and maintainability. Laravel integrates well with Mockery, a mocking framework for PHP, to help developers create test doubles. Let&rsquo;s delve into the concepts of Stubs, Mocks, Doubles, and Spies, and how they&rsquo;re used in Laravel testing scenarios.
 "
 />
 <meta
   name="keywords"
   content="web development, programming, technology, blog"
 />
-<meta name="robots" content="noodp" /><link rel="manifest" href="/manifest.json" /><meta property="og:url" content="http://localhost:1313/laravel/laravel-seeders-and-pest-a-casual-look/">
+<meta name="robots" content="noodp" /><link rel="manifest" href="/manifest.json" /><meta property="og:url" content="http://localhost:1313/laravel/stubs-mocks-double-and-spies-when-to-use-one-over-the-other/">
   <meta property="og:site_name" content="mgalalm - blog">
-  <meta property="og:title" content="Laravel Seeders and Pest: A Casual Look">
-  <meta property="og:description" content="Let’s dive into the world of Laravel seeders used with Pest.
-Setting Up Data with Seeders Here’s a snippet of how you might use a seeder:">
+  <meta property="og:title" content="Stubs Mocks Double and Spies When to Use One Over the Other?">
+  <meta property="og:description" content="Learn about the differences between Stubs, Mocks, Doubles, and Spies in Laravel testing scenarios and when to use each one.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="laravel">
-    <meta property="article:published_time" content="2024-12-04T20:50:12+00:00">
-    <meta property="article:modified_time" content="2024-12-04T20:50:12+00:00">
+    <meta property="article:published_time" content="2024-12-07T21:30:02+00:00">
+    <meta property="article:modified_time" content="2024-12-07T21:30:02+00:00">
     <meta property="article:tag" content="Laravel">
     <meta property="article:tag" content="Testing">
-    <meta property="article:tag" content="Pest">
-    <meta property="article:tag" content="Seeders">
+    <meta property="article:tag" content="Mockery">
+    <meta property="article:tag" content="Unit Testing">
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Laravel Seeders and Pest: A Casual Look">
-  <meta name="twitter:description" content="Let’s dive into the world of Laravel seeders used with Pest.
-Setting Up Data with Seeders Here’s a snippet of how you might use a seeder:">
+  <meta name="twitter:title" content="Stubs Mocks Double and Spies When to Use One Over the Other?">
+  <meta name="twitter:description" content="Learn about the differences between Stubs, Mocks, Doubles, and Spies in Laravel testing scenarios and when to use each one.">
 
 
-<link rel="canonical" href="http://localhost:1313/laravel/laravel-seeders-and-pest-a-casual-look/" />
+<link rel="canonical" href="http://localhost:1313/laravel/stubs-mocks-double-and-spies-when-to-use-one-over-the-other/" />
 
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="stylesheet" href="/css/index.f2b5b9c8e4e9b03048601ca9eedc29df44c3a73343f4538f41785e16f13c341a.css">
@@ -179,10 +176,10 @@ Setting Up Data with Seeders Here’s a snippet of how you might use a seeder:">
 <div class="w-full max-w-4xl lg:max-w-5xl">
   <div class="flex flex-col mt-6 mx-2 md:mx-0 rounded-lg overflow-hidden shadow-md bg-white dark:bg-gray-700">
     <div>
-      <a href="/laravel/laravel-seeders-and-pest-a-casual-look/">
+      <a href="/laravel/stubs-mocks-double-and-spies-when-to-use-one-over-the-other/">
         <figure>
-    <img class="w-full object-cover h-36 md:h-48 xl:h-60" src="/images/seeder.jpg"
-      alt="Laravel Seeders and Pest: A Casual Look" title="Laravel Seeders and Pest: A Casual Look"
+    <img class="w-full object-cover h-36 md:h-48 xl:h-60" src="/images/mock-stub-spy.jpg"
+      alt="Stubs Mocks Double and Spies When to Use One Over the Other?" title="Stubs Mocks Double and Spies When to Use One Over the Other?"
       loading="lazy"
     >
   </figure>
@@ -190,12 +187,32 @@ Setting Up Data with Seeders Here’s a snippet of how you might use a seeder:">
     </div>
     <div class="flex flex-col gap-y-3 p-6">
       <h1 class="text-4xl font-semibold text-slate-800 dark:text-slate-100">
-        <a href="/laravel/laravel-seeders-and-pest-a-casual-look/">Laravel Seeders and Pest: A Casual Look</a>
+        <a href="/laravel/stubs-mocks-double-and-spies-when-to-use-one-over-the-other/">Stubs Mocks Double and Spies When to Use One Over the Other?</a>
       </h1>
 
       
+      <h2 class="my-4 text-large text-slate-600 dark:text-slate-300">
+        Learn about the differences between Stubs, Mocks, Doubles, and Spies in Laravel testing scenarios and when to use each one.
+      </h2>
+      
       
   <ul class="flex flex-row flex-wrap text-slate-500 dark:text-slate-300">
+    
+      
+      <li>
+        <a href="/categories/laravel/"
+          class="text-sm mr-2 px-2 py-1 rounded border border-emerald-800 bg-emerald-800 text-slate-50">
+          Laravel
+        </a>
+      </li>
+      
+      <li>
+        <a href="/categories/testing/"
+          class="text-sm mr-2 px-2 py-1 rounded border border-emerald-800 bg-emerald-800 text-slate-50">
+          Testing
+        </a>
+      </li>
+      
     
     
       
@@ -234,7 +251,7 @@ Setting Up Data with Seeders Here’s a snippet of how you might use a seeder:">
       </li>
       
       <li>
-        <a href="/tags/pest/"
+        <a href="/tags/mockery/"
           class="flex flex-row text-sm mr-2 py-1">
           <i class="h-5 w-5 flex-none">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -246,12 +263,12 @@ Setting Up Data with Seeders Here’s a snippet of how you might use a seeder:">
 </svg>
 
           </i>
-          <span class="ml-0">Pest</span>
+          <span class="ml-0">Mockery</span>
         </a>
       </li>
       
       <li>
-        <a href="/tags/seeders/"
+        <a href="/tags/unit-testing/"
           class="flex flex-row text-sm mr-2 py-1">
           <i class="h-5 w-5 flex-none">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -263,7 +280,7 @@ Setting Up Data with Seeders Here’s a snippet of how you might use a seeder:">
 </svg>
 
           </i>
-          <span class="ml-0">Seeders</span>
+          <span class="ml-0">Unit Testing</span>
         </a>
       </li>
       
@@ -288,8 +305,8 @@ Setting Up Data with Seeders Here’s a snippet of how you might use a seeder:">
 </svg>
 
     </i>
-    <time datetime="2024-12-04T20:50:12&#43;00:00">
-      2024-12-04
+    <time datetime="2024-12-07T21:30:02&#43;00:00">
+      2024-12-07
     </time>
   </div>
 
@@ -304,7 +321,7 @@ Setting Up Data with Seeders Here’s a snippet of how you might use a seeder:">
 
     </i>
     <span>
-      2 minutes to read
+      3 minutes to read
     </span>
   </div>
 </div>
@@ -317,11 +334,13 @@ Setting Up Data with Seeders Here’s a snippet of how you might use a seeder:">
           <h2>Table of Contents</h2>
           <aside><nav id="TableOfContents">
   <ul>
-    <li><a href="#setting-up-data-with-seeders">Setting Up Data with Seeders</a></li>
-    <li><a href="#writing-tests-with-pest">Writing Tests with Pest</a>
+    <li>
       <ul>
-        <li><a href="#advantages-of-using-seeders-with-pest">Advantages of Using Seeders with Pest</a></li>
-        <li><a href="#on-readability">On Readability:</a></li>
+        <li><a href="#what-are-test-doubles">What are Test Doubles?</a></li>
+        <li><a href="#stubs">Stubs</a></li>
+        <li><a href="#mocks">Mocks</a></li>
+        <li><a href="#spies">Spies</a></li>
+        <li><a href="#final-thoughts">Final Thoughts</a></li>
       </ul>
     </li>
   </ul>
@@ -331,53 +350,31 @@ Setting Up Data with Seeders Here’s a snippet of how you might use a seeder:">
       
 
       <article class="mt-6 w-full max-w-4xl lg:max-w-5xl prose prose-slate dark:prose-invert prose-quoteless post-content">
-        <p>Let&rsquo;s dive into the world of Laravel seeders used with Pest.</p>
-<h2 id="setting-up-data-with-seeders">Setting Up Data with Seeders</h2>
-<p>Here&rsquo;s a snippet of how you might use a seeder:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span>$my_book <span style="color:#f92672">=</span> <span style="color:#a6e22e">Product</span><span style="color:#f92672">::</span><span style="color:#a6e22e">create</span>([<span style="color:#e6db74">&#39;name&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#e6db74">&#34;Zayn and Grandad&#39;s Van&#34;</span>]);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>$amazon_uk <span style="color:#f92672">=</span> <span style="color:#a6e22e">Retailer</span><span style="color:#f92672">::</span><span style="color:#a6e22e">create</span>([<span style="color:#e6db74">&#39;name&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#e6db74">&#39;Amazon UK&#39;</span>]);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>$stock <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Stock</span>([
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;price&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#ae81ff">2000</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;url&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#e6db74">&#39;http://www.amazon.uk&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;in_stock&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#66d9ef">false</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;sku&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#e6db74">&#39;12345&#39;</span>,
-</span></span><span style="display:flex;"><span>]);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>$amazon_uk<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">addStock</span>($my_book, $stock);
-</span></span></code></pre></div><h2 id="writing-tests-with-pest">Writing Tests with Pest</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#a6e22e">uses</span>(<span style="color:#a6e22e">RefreshDatabase</span><span style="color:#f92672">::</span><span style="color:#a6e22e">class</span>);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">it</span>(<span style="color:#e6db74">&#34;tracks products stock&#34;</span>, <span style="color:#66d9ef">function</span> () {
-</span></span><span style="display:flex;"><span>    $this<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">seed</span>(<span style="color:#a6e22e">RetailerWithProductSeeder</span><span style="color:#f92672">::</span><span style="color:#a6e22e">class</span>);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    $product <span style="color:#f92672">=</span> <span style="color:#a6e22e">Product</span><span style="color:#f92672">::</span><span style="color:#a6e22e">first</span>();
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    $this<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">assertFalse</span>($product<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">inStock</span>());
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">Http</span><span style="color:#f92672">::</span><span style="color:#a6e22e">fake</span>(<span style="color:#a6e22e">fn</span>() <span style="color:#f92672">=&gt;</span> [<span style="color:#e6db74">&#39;available&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#66d9ef">true</span>, <span style="color:#e6db74">&#39;price&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#ae81ff">29900</span>]);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Let&#39;s pretend the stock is available now
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    $this<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">artisan</span>(<span style="color:#e6db74">&#39;track&#39;</span>);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    $this<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">assertTrue</span>(<span style="color:#a6e22e">Product</span><span style="color:#f92672">::</span><span style="color:#a6e22e">first</span>()<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">inStock</span>());
-</span></span><span style="display:flex;"><span>});
-</span></span></code></pre></div><p>RefreshDatabase clears the database before each test, ensuring no old data messes with your results.</p>
-<h3 id="advantages-of-using-seeders-with-pest">Advantages of Using Seeders with Pest</h3>
-<ul>
-<li>Efficient Setup: Seeders mean you&rsquo;re not rewriting the same setup code for every test. It&rsquo;s like cooking dinner where the prep work is already done.</li>
-<li>Reuse: Seeders are reusable across your tests. Think of them as a favorite recipe you pull out whenever needed.</li>
-<li>Realistic Scenarios: They let you craft complex, real-world-like data setups. Great for when you want to test how your app behaves in varied conditions</li>
-</ul>
-<h3 id="on-readability">On Readability:</h3>
-<ul>
-<li><strong>Outside Context:</strong> When you see RetailerWithProductSeeder::class, you&rsquo;ve got to go look elsewhere to understand what data it&rsquo;s seeding. It&rsquo;s like a film reference that makes you want to check the movie out to get the full picture.</li>
-<li><strong>Debugging Complexity:</strong> If things go wrong, you&rsquo;re not just debugging the test; you&rsquo;re also looking at what the seeder&rsquo;s doing. Adds a bit of detective work to your debugging process.</li>
-<li><strong>Test Isolation:</strong> Mess with the seeder, and you might find a bunch of your tests falling apart. It&rsquo;s like a domino effect; one goes down, and they all might.</li>
-<li><strong>Implicit Reset:</strong> The RefreshDatabase trait ensures each test begins afresh, which is great, but might not be immediately obvious to someone new to the code.</li>
-</ul>
-<p>To sum up, combining seeders with Pest in Laravel is quite handy for managing your test data, but it does introduce some readability considerations. Make sure to keep your seeders well-documented and perhaps sprinkle some comments in your tests to make life easier for the next developer who looks at your code.</p>
+        <p>In software development, especially when working with frameworks like Laravel, unit testing is crucial for ensuring code reliability and maintainability. Laravel integrates well with Mockery, a mocking framework for PHP, to help developers create test doubles. Let&rsquo;s delve into the concepts of Stubs, Mocks, Doubles, and Spies, and how they&rsquo;re used in Laravel testing scenarios.</p>
+<h3 id="what-are-test-doubles">What are Test Doubles?</h3>
+<p>Test doubles are objects that stand in for real objects during testing. They simulate the behavior of complex, real objects to isolate the code being tested. The term &ldquo;test double&rdquo; was coined by Gerard Meszaros to describe these stand-ins, which include stubs, mocks, dummies, fakes, and spies.</p>
+<h3 id="stubs">Stubs</h3>
+<p>A stub is an object that provides predefined answers to calls made during a test, focusing on controlling the output of the dependency.</p>
+<p>When to use Stubs: Use stubs when you want to replace a method&rsquo;s behavior with a fixed response. For example, when testing a method that interacts with a database, you can use a stub to return a predefined dataset instead of querying the database. Stubs are useful when you need to control the output of a method to test different scenarios.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span>$stub <span style="color:#f92672">=</span> <span style="color:#a6e22e">Mockery</span><span style="color:#f92672">::</span><span style="color:#a6e22e">mock</span>(<span style="color:#e6db74">&#39;MyClass&#39;</span>);
+</span></span><span style="display:flex;"><span>$stub<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">shouldReceive</span>(<span style="color:#e6db74">&#39;method&#39;</span>)<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">andReturn</span>(<span style="color:#e6db74">&#39;foo&#39;</span>);
+</span></span></code></pre></div><p>This stub will return &lsquo;foo&rsquo; whenever the method is called. Example of usage would be:
+When you want to stub API call to return a specific response without actually making the network request.</p>
+<h3 id="mocks">Mocks</h3>
+<p>Mocks are similar to stubs but they also verify interactions with the system under test. They expect certain methods to be called with specific parameters.</p>
+<p>When to use Mocks: Mocks are used when you need to assert that certain methods were called with the right parameters:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span>$mock <span style="color:#f92672">=</span> <span style="color:#a6e22e">Mockery</span><span style="color:#f92672">::</span><span style="color:#a6e22e">mock</span>(<span style="color:#e6db74">&#39;MyClass&#39;</span>);
+</span></span><span style="display:flex;"><span>$mock<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">shouldReceive</span>(<span style="color:#e6db74">&#39;method&#39;</span>)<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">with</span>(<span style="color:#e6db74">&#39;foo&#39;</span>)<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">once</span>();
+</span></span></code></pre></div><p>This mock will expect the method to be called with &lsquo;foo&rsquo; as a parameter exactly once. Example of usage would be:
+When you want to ensure that a method is called with specific parameters. For example, when testing a method that sends an email, you can use a mock to verify that the email was sent with the correct subject and body.</p>
+<h3 id="spies">Spies</h3>
+<p>Spies are test doubles that record calls made during the test, allowing assertions after the fact rather than setting expectations beforehand. Spies are useful for verifying that methods get called without prescribing how they should be called:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span>$spy <span style="color:#f92672">=</span> <span style="color:#a6e22e">Mockery</span><span style="color:#f92672">::</span><span style="color:#a6e22e">spy</span>(<span style="color:#e6db74">&#39;MyService&#39;</span>);
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Perform some action that should call &#39;method&#39; on &#39;MyService&#39;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>$spy<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">shouldHaveReceived</span>(<span style="color:#e6db74">&#39;method&#39;</span>);
+</span></span></code></pre></div><p>Example would be, If you&rsquo;re testing event broadcasting in Laravel, you might use a spy to ensure an event was dispatched without caring about the specific details of the event data.</p>
+<h3 id="final-thoughts">Final Thoughts</h3>
+<p>Choosing between stubs, mocks, doubles, and spies depends on the specific requirements of your test. Stubs are useful when you want to control the output of a method, mocks are used to verify interactions, and spies are helpful for verifying calls after the fact. By understanding the differences between these test doubles, you can write more effective and maintainable tests in your Laravel applications.</p>
       </article>
 
       

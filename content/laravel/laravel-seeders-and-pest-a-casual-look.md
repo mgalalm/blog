@@ -2,11 +2,10 @@
 date = '2024-12-04T20:50:12Z'
 draft = false
 title = 'Laravel Seeders and Pest: A Casual Look'
-image = 'images/seeder.jpg'
+image = '/images/seeder.jpg'
 tags = ['Laravel', 'Testing', 'Pest', 'Seeders']
 +++
 
-![Seeder](/images/seeder.jpg)
 Let's dive into the world of Laravel seeders used with Pest.
 
 ## Setting Up Data with Seeders

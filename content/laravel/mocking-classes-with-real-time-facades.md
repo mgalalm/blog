@@ -2,9 +2,10 @@
 date = '2024-12-07T16:06:15Z'
 draft = false
 title = 'Mocking Classes With Real Time Facades'
+tags = ["Laravel", "Testing", "Facades", "Mocking"]
+categories = ["Programming", "Laravel"]
+image = "/images/mocking-with-facade.jpg"
 +++
-
-![Real-Time Facades](/images/mocking-with-facade.jpg)
 
 In PHP, particularly within frameworks like Laravel, facades provide a static-like interface to classes available in the service container. Here, we delve into the concept of real-time facades, which allow you to treat any class in your application as if it were a facade, enhancing your ability to mock dependencies for testing. 
 
@@ -32,7 +33,12 @@ By using Facades before App\Clients\ClientFactory, you're instructing PHP to res
 - Mocking: You can easily mock this facade for testing purposes. For example:
 
 ```php
-ClientFactory::shouldReceive('make')->andReturn(new FakeClient());
+ ClientFactory::shouldReceive('make')->andReturn(new class implements Client {
+        public function checkAvailability(Stock $stock): StockStatus
+        {
+            return new StockStatus($available = true, $price = 9900);
+        }
+    });
 ```
 
 This line mocks the make method of ClientFactory to return a FakeClient instance, which is particularly useful in unit testing where you want to control what the make method does.
