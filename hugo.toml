@@ -73,3 +73,5 @@ pluralizelisttitles = false
     name       = "Laravel"
     url        = "/laravel/"
     weight     = 10
+
+# show sidebar in post list
