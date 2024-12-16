@@ -6,8 +6,15 @@
     <description>Recent content on mgalalm - blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Dec 2024 13:47:41 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Dec 2024 16:53:20 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Keep Your Test Suite Under Control Without Breaking the Bank</title>
+      <link>http://localhost:1313/laravel/how-to-keep-your-test-suite-under-control-without-breaking-the-bank/</link>
+      <pubDate>Mon, 16 Dec 2024 16:53:20 +0000</pubDate>
+      <guid>http://localhost:1313/laravel/how-to-keep-your-test-suite-under-control-without-breaking-the-bank/</guid>
+      <description>&lt;p&gt;Imagine this: you’re running your test suite every time you make a change, but instead of your tests zipping through like a speedster, they keep calling an evolving 3rd party API that you need to make sure your code is still compatible with.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Some Table Topics With the Help of Grok2</title>
       <link>http://localhost:1313/public-speech/some-table-topics-with-the-help-of-grok2/</link>

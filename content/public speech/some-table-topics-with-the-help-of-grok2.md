@@ -2,6 +2,7 @@
 date = '2024-12-13T13:47:41Z'
 draft = false
 title = 'Some Table Topics With the Help of Grok2'
+image = '/images/santa-election.jpeg'
 +++
 
 1. What happens when Santa holds an election for Head Elf? Campaign promises and all

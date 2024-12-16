@@ -2,22 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/laravel/how-to-keep-your-test-suite-under-control-without-breaking-the-bank/</loc>
+    <lastmod>2024-12-16T16:53:20+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/laravel/</loc>
+    <lastmod>2024-12-16T16:53:20+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2024-12-16T16:53:20+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/public-speech/</loc>
     <lastmod>2024-12-13T13:47:41+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/publicspeech/</loc>
-    <lastmod>2024-12-13T13:47:41+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/publicspeech/some-table-topics-with-the-help-of-grok2/</loc>
+    <loc>http://localhost:1313/public-speech/some-table-topics-with-the-help-of-grok2/</loc>
     <lastmod>2024-12-13T13:47:41+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2024-12-08T21:39:10+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/laravel/</loc>
-    <lastmod>2024-12-08T21:39:10+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/laravel/</loc>
     <lastmod>2024-12-08T21:39:10+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/laravel/</loc>
