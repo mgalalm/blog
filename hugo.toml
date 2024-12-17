@@ -5,6 +5,14 @@ theme = 'tailwind'
 sectionPagesMenu = 'main'
 pluralizelisttitles = false
 
+[markup]
+
+  defaultMarkdownHandler = "goldmark"
+    [markup.goldmark]
+      [markup.goldmark.renderer]
+        unsafe = true
+
+
 [params]
   contentTypeName = "laravel"
   description = 'A blog about web development, programming, and technology.'

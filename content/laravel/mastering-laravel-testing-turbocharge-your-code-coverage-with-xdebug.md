@@ -4,9 +4,8 @@ draft = false
 title = 'Turbocharge Your Code Coverage With Xdebug'
 tags = ['Laravel', 'Testing', 'Code Coverage', 'Xdebug']
 categories = ['Testing', 'Laravel']
+image = '/images/coverage.jpg'
 +++
-
-![Laravel Testing](/images/coverage.jpg)
 
 In the dynamic world of Laravel development, ensuring your code is well-tested isn't just good practice; it's essential for creating robust applications. **Code coverage** serves as a critical metric to assess the extent to which your tests cover your codebase. <!--more-->
 

@@ -209,8 +209,13 @@
               
   
   <div class="my-4 text-large text-slate-600 dark:text-slate-300">
-    <!-- raw HTML omitted -->
-
+    <p>Ever tried to mock a Demeter chain in PHP? It&rsquo;s like trying to thread a needle with a rope. Let’s break it down with an example using Laravel.</p>
+<h2 id="example-of-a-demeter-chain">Example of a Demeter Chain</h2>
+<p>Imagine you&rsquo;re working with Laravel, and you have this glorious chain:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span>$order <span style="color:#f92672">=</span> <span style="color:#a6e22e">Order</span><span style="color:#f92672">::</span><span style="color:#a6e22e">find</span>($id);
+</span></span><span style="display:flex;"><span>$status <span style="color:#f92672">=</span> $order<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">payment</span><span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">transaction</span><span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">status</span>;
+</span></span></code></pre></div><p>Here, we&rsquo;re grabbing an Order, navigating through its payment, then through its transaction, to get the status.</p>
+<p>Now you want to test something, and this chain decides to make your life miserable:</p>
   </div>
   
 
@@ -369,8 +374,7 @@
               
   
   <div class="my-4 text-large text-slate-600 dark:text-slate-300">
-    <!-- raw HTML omitted -->
-
+    In PHP, particularly within frameworks like Laravel, facades provide a static-like interface to classes available in the service container. Here, we delve into the concept of real-time facades, which allow you to treat any class in your application as if it were a facade, enhancing your ability to mock dependencies for testing.
   </div>
   
 
@@ -529,8 +533,7 @@
               
   
   <div class="my-4 text-large text-slate-600 dark:text-slate-300">
-    <!-- raw HTML omitted -->
-
+    Testing Exceptions. In this post, we&rsquo;ll explore how to create and test custom exceptions effectively, enhancing the reliability of your applications.
   </div>
   
 

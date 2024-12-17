@@ -2,17 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/beyond-code/</loc>
+    <lastmod>2024-12-17T14:59:03+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-12-17T14:59:03+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/beyond-code/replacing-a-faulty-extractor-fan-with-chatgpt-s-help/</loc>
+    <lastmod>2024-12-17T14:59:03+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/laravel/how-to-keep-your-test-suite-under-control-without-breaking-the-bank/</loc>
     <lastmod>2024-12-16T16:53:20+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/laravel/</loc>
     <lastmod>2024-12-16T16:53:20+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-12-16T16:53:20+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/beyond-code/</loc>
-    <lastmod>2024-12-13T13:47:41+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/beyond-code/some-table-topics-with-the-help-of-grok2/</loc>
     <lastmod>2024-12-13T13:47:41+00:00</lastmod>

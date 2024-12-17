@@ -47,10 +47,10 @@ This line mocks the make method of ClientFactory to return a FakeClient instance
 
 To use this real-time facade approach in your testing environment, you need to adjust the class usage in your code as well. Here's how you might implement it:
   
-  ```diff
-  - use App\Clients\ClientFactory;
-  + use Facades\App\Clients\ClientFactory;
-  ```
+```diff
+- use App\Clients\ClientFactory;
++ use Facades\App\Clients\ClientFactory;
+```
   
   This change allows you to mock the ClientFactory class in your tests, providing a more controlled environment for testing.
 

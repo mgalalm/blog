@@ -28,4 +28,4 @@ print(filename)
 
 # use hugo new content to create the new post
 
-os.system(f"hugo new {filename}")
+os.system(f"hugo new \"{filename}\"")
