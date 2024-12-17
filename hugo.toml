@@ -21,11 +21,11 @@ pluralizelisttitles = false
     url        = "/"
     weight     = 1
 
-  [[menu.Main]]
-    identifier = "about"
-    name       = "About"
-    url        = "/about/"
-    weight     = 2
+  # [[menu.Main]]
+  #   identifier = "about"
+  #   name       = "About"
+  #   url        = "/about/"
+  #   weight     = 2
 
   # [[menu.Main]]
   #   identifier = "contact"
