@@ -6,8 +6,15 @@
     <description>Recent content on mgalalm - blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Dec 2024 20:25:20 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Dec 2024 20:49:29 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Demystifying Laravel Jetstream</title>
+      <link>http://localhost:1313/laravel/demystifying-laravel-jetstream/</link>
+      <pubDate>Sun, 22 Dec 2024 20:49:29 +0000</pubDate>
+      <guid>http://localhost:1313/laravel/demystifying-laravel-jetstream/</guid>
+      <description>&lt;p&gt;Laravel Jetstream is a polished UI scaffolding package for Laravel applications. It provides developers with a refined starting point for building user interfaces, offering pre-built components and workflows for common features like authentication, profile management, and two-factor authentication.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Extracting and Reusing Functions in Pest Tests</title>
       <link>http://localhost:1313/laravel/extracting-and-reusing-functions-in-pest-tests/</link>
@@ -16,11 +23,11 @@
       <description>&lt;p&gt;When working with Pest—the modern and elegant testing framework for PHP—you might encounter scenarios where a custom function is being used across multiple test files. Maybe it&amp;rsquo;s a function to mock a client request, handle repetitive setup tasks, or simulate specific data conditions. Whatever the case, it’s a great opportunity to extract that function to a reusable location. But where should you place it?&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Replacing a Faulty Extractor Fan With Chatgpt S Help</title>
+      <title>Replacing a Faulty Extractor Fan With Chatgpt Help</title>
       <link>http://localhost:1313/beyond-code/replacing-a-faulty-extractor-fan-with-chatgpt-s-help/</link>
       <pubDate>Tue, 17 Dec 2024 14:59:03 +0000</pubDate>
       <guid>http://localhost:1313/beyond-code/replacing-a-faulty-extractor-fan-with-chatgpt-s-help/</guid>
-      <description>&lt;p&gt;When my extractor fan stopped working, it made a loud noise and gave off a burning smell. I switched it off, knowing it was time for a replacement. Not being an expert, I removed the cover, snapped a photo of the fan, and consulted ChatGPT. It identified the model and explained the wiring, giving me confidence to proceed.&lt;/p&gt;&#xA;&lt;p&gt;Amazon had a replacement, but delivery wouldn’t arrive before Christmas. Adding to the challenge, finding an electrician to fix it during the holiday season would have been nearly impossible, despite the cost. I headed to Screwfix, where they suggested a similar alternative. Unsure if it would work, I checked with ChatGPT again and got the go-ahead. Reassured, I bought the fan.&lt;/p&gt;</description>
+      <description>&lt;p&gt;When my extractor fan stopped working, it made a loud noise and gave off a burning smell. I switched it off, knowing it was time for a replacement. Not being an expert, I removed the cover, snapped a photo of the fan, and consulted ChatGPT. It identified the model and explained the wiring, giving me confidence to proceed.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to Keep Your Test Suite Under Control Without Breaking the Bank</title>

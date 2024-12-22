@@ -1,9 +1,9 @@
 +++
 date = '2024-12-17T14:59:03Z'
 draft = false
-title = 'Replacing a Faulty Extractor Fan With Chatgpt S Help'
+title = 'Replacing a Faulty Extractor Fan With Chatgpt Help'
 +++
-When my extractor fan stopped working, it made a loud noise and gave off a burning smell. I switched it off, knowing it was time for a replacement. Not being an expert, I removed the cover, snapped a photo of the fan, and consulted ChatGPT. It identified the model and explained the wiring, giving me confidence to proceed.
+When my extractor fan stopped working, it made a loud noise and gave off a burning smell. I switched it off, knowing it was time for a replacement. Not being an expert, I removed the cover, snapped a photo of the fan, and consulted ChatGPT. It identified the model and explained the wiring, giving me confidence to proceed. <!--more-->
 
 Amazon had a replacement, but delivery wouldn’t arrive before Christmas. Adding to the challenge, finding an electrician to fix it during the holiday season would have been nearly impossible, despite the cost. I headed to Screwfix, where they suggested a similar alternative. Unsure if it would work, I checked with ChatGPT again and got the go-ahead. Reassured, I bought the fan. 
 

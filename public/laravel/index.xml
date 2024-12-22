@@ -6,8 +6,15 @@
     <description>Recent content in Laravel on mgalalm - blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Dec 2024 20:25:20 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Dec 2024 20:49:29 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/laravel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Demystifying Laravel Jetstream</title>
+      <link>http://localhost:1313/laravel/demystifying-laravel-jetstream/</link>
+      <pubDate>Sun, 22 Dec 2024 20:49:29 +0000</pubDate>
+      <guid>http://localhost:1313/laravel/demystifying-laravel-jetstream/</guid>
+      <description>&lt;p&gt;Laravel Jetstream is a polished UI scaffolding package for Laravel applications. It provides developers with a refined starting point for building user interfaces, offering pre-built components and workflows for common features like authentication, profile management, and two-factor authentication.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Extracting and Reusing Functions in Pest Tests</title>
       <link>http://localhost:1313/laravel/extracting-and-reusing-functions-in-pest-tests/</link>
