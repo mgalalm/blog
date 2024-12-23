@@ -3,6 +3,7 @@ date = '2024-12-22T20:49:29Z'
 draft = false
 title = 'Demystifying Laravel Jetstream'
 image = '/images/jetstream-arch.jpg'
+tags = ['Laravel', 'Jetstream']
 +++
 
 Laravel Jetstream is a polished UI scaffolding package for Laravel applications. It provides developers with a refined starting point for building user interfaces, offering pre-built components and workflows for common features like authentication, profile management, and two-factor authentication. <!--more-->

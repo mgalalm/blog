@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta
   name="description"
-  content="Avatars are a great way to personalize your application! They make user profiles more engaging and ensure everyone has a recognizable avatar when creating or commenting on posts. If you’re using Jetstream and want to enable custom profile photos, here’s a simple guide to get you started.
+  content="Avatar is a great way to personalize your application! They make user profiles more engaging and ensure everyone has a recognizable avatar when creating or commenting on posts. If you’re using Jetstream and want to enable custom profile photos, here’s a simple guide to get you started.
 "
 />
 <meta
@@ -17,7 +17,7 @@
 <meta name="robots" content="noodp" /><link rel="manifest" href="/manifest.json" /><meta property="og:url" content="http://localhost:1313/laravel/how-to-enable-profile-photos-in-jetstream/">
   <meta property="og:site_name" content="mgalalm - blog">
   <meta property="og:title" content="How to Enable Profile Photos in Jetstream">
-  <meta property="og:description" content="Avatars are a great way to personalize your application! They make user profiles more engaging and ensure everyone has a recognizable avatar when creating or commenting on posts. If you’re using Jetstream and want to enable custom profile photos, here’s a simple guide to get you started.">
+  <meta property="og:description" content="Avatar is a great way to personalize your application! They make user profiles more engaging and ensure everyone has a recognizable avatar when creating or commenting on posts. If you’re using Jetstream and want to enable custom profile photos, here’s a simple guide to get you started.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="laravel">
@@ -29,7 +29,7 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="How to Enable Profile Photos in Jetstream">
-  <meta name="twitter:description" content="Avatars are a great way to personalize your application! They make user profiles more engaging and ensure everyone has a recognizable avatar when creating or commenting on posts. If you’re using Jetstream and want to enable custom profile photos, here’s a simple guide to get you started.">
+  <meta name="twitter:description" content="Avatar is a great way to personalize your application! They make user profiles more engaging and ensure everyone has a recognizable avatar when creating or commenting on posts. If you’re using Jetstream and want to enable custom profile photos, here’s a simple guide to get you started.">
 
 
 <link rel="canonical" href="http://localhost:1313/laravel/how-to-enable-profile-photos-in-jetstream/" />
@@ -296,6 +296,7 @@
       <ul>
         <li><a href="#update-the-configuration-file">Update the Configuration File</a></li>
         <li><a href="#troubleshooting-common-issues">Troubleshooting Common Issues</a></li>
+        <li><a href="#customizing-profile-photo-validation">Customizing Profile Photo Validation</a></li>
         <li><a href="#wrapping-up">Wrapping Up!</a></li>
       </ul>
     </li>
@@ -306,7 +307,7 @@
       
 
       <article class="mt-6 w-full max-w-4xl lg:max-w-5xl prose prose-slate dark:prose-invert prose-quoteless post-content">
-        <p>Avatars are a great way to personalize your application! They make user profiles more engaging and ensure everyone has a recognizable avatar when creating or commenting on posts. If you’re using Jetstream and want to enable custom profile photos, here’s a simple guide to get you started.</p>
+        <p>Avatar is a great way to personalize your application! They make user profiles more engaging and ensure everyone has a recognizable avatar when creating or commenting on posts. If you’re using Jetstream and want to enable custom profile photos, here’s a simple guide to get you started.</p>
 <h3 id="update-the-configuration-file">Update the Configuration File</h3>
 <p>Jetstream comes with a configuration file where you can enable or disable certain features. To enable profile photos:</p>
 <p>Open the jetstream.php configuration file in your project’s config folder.</p>
@@ -332,7 +333,11 @@
 <li><strong>Incorrect APP_URL in .env</strong>: Ensure that the <code>APP_URL</code> in your <code>.env</code> file is correctly set to your application’s URL. This is crucial for loading images and assets correctly. If your application is accessible via a custom domain (e.g., <a href="http://app.test" target="_blank" rel="noopener">http://app.test</a>
 ) but the APP_URL in your .env file is set to http://localhost, the profile photos might not load correctly.</li>
 </ol>
-<h3 id="wrapping-up">Wrapping Up!</h3>
+<h3 id="customizing-profile-photo-validation">Customizing Profile Photo Validation</h3>
+<p>Now we have enabled the profile photo feature in Jetstream, but we might want to customize the validation rules for the uploaded photos for example, we might want to restrict the file types or sizes.</p>
+<p>To customize the validation rules for profile photos, you can modify the <code>UpdateProfileInformation</code> action class under <code>App\Actions\Fortify</code> directory. In this class, you can find the <code>update</code> method where the profile photo is validated.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#e6db74">&#39;photo&#39;</span> <span style="color:#f92672">=&gt;</span> [<span style="color:#e6db74">&#39;nullable&#39;</span>, <span style="color:#e6db74">&#39;mimes:jpg,jpeg,png&#39;</span>, <span style="color:#e6db74">&#39;max:1024&#39;</span>],
+</span></span></code></pre></div><h3 id="wrapping-up">Wrapping Up!</h3>
 <p>That’s it! With these simple steps, you’ve enabled profile photos in Jetstream. Whether you’re building a blog, a social network, or any other type of app, this feature will make your users’ profiles more vibrant and engaging. Enjoy!</p>
       </article>
 

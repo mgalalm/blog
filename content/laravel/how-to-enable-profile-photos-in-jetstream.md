@@ -6,7 +6,7 @@ tags = ['Laravel', 'Jetstream']
 image = '/images/jetstream-profilephoto.jpg'
 
 +++
-Avatars are a great way to personalize your application! They make user profiles more engaging and ensure everyone has a recognizable avatar when creating or commenting on posts. If you’re using Jetstream and want to enable custom profile photos, here’s a simple guide to get you started. <!--more-->
+Avatar is a great way to personalize your application! They make user profiles more engaging and ensure everyone has a recognizable avatar when creating or commenting on posts. If you’re using Jetstream and want to enable custom profile photos, here’s a simple guide to get you started. <!--more-->
 
 ### Update the Configuration File
 
@@ -46,6 +46,17 @@ php artisan storage:link
 
 2. **Incorrect APP_URL in .env**: Ensure that the `APP_URL` in your `.env` file is correctly set to your application’s URL. This is crucial for loading images and assets correctly. If your application is accessible via a custom domain (e.g., http://app.test) but the APP_URL in your .env file is set to http://localhost, the profile photos might not load correctly.
 
+
+
+### Customizing Profile Photo Validation
+
+Now we have enabled the profile photo feature in Jetstream, but we might want to customize the validation rules for the uploaded photos for example, we might want to restrict the file types or sizes.
+
+To customize the validation rules for profile photos, you can modify the `UpdateProfileInformation` action class under `App\Actions\Fortify` directory. In this class, you can find the `update` method where the profile photo is validated. 
+ 
+```php 
+'photo' => ['nullable', 'mimes:jpg,jpeg,png', 'max:1024'],
+```
 
 ### Wrapping Up!
 That’s it! With these simple steps, you’ve enabled profile photos in Jetstream. Whether you’re building a blog, a social network, or any other type of app, this feature will make your users’ profiles more vibrant and engaging. Enjoy!
