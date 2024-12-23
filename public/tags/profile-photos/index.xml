@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Profile Photos on mgalalm - blog</title>
+    <link>http://localhost:1313/tags/profile-photos/</link>
+    <description>Recent content in Profile Photos on mgalalm - blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Dec 2024 20:03:24 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/profile-photos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Enable Profile Photos in Jetstream</title>
+      <link>http://localhost:1313/laravel/how-to-enable-profile-photos-in-jetstream/</link>
+      <pubDate>Mon, 23 Dec 2024 20:03:24 +0000</pubDate>
+      <guid>http://localhost:1313/laravel/how-to-enable-profile-photos-in-jetstream/</guid>
+      <description>&lt;p&gt;Profile photos are a great way to personalize your application! They make user profiles more engaging and ensure everyone has a recognizable avatar when creating or commenting on posts. If you’re using Jetstream and want to enable custom profile photos, here’s a simple guide to get you started.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
