@@ -1,7 +1,7 @@
 +++
 date = '2024-12-23T21:25:28Z'
 draft = false
-title = 'How to Send Emails Using Amazon Ses in Laravel'
+title = 'How to Send Emails Using Amazon SES in Laravel'
 image = '/images/amazon-ses-laravel.jpeg'
 tags = ['Laravel', 'Cloud', 'AWS', 'Amazon SES']
 categories = ['Laravel', 'Cloud', 'AWS']
