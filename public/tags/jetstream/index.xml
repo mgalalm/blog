@@ -13,7 +13,14 @@
       <link>http://localhost:1313/laravel/how-to-enable-profile-photos-in-jetstream/</link>
       <pubDate>Mon, 23 Dec 2024 20:03:24 +0000</pubDate>
       <guid>http://localhost:1313/laravel/how-to-enable-profile-photos-in-jetstream/</guid>
-      <description>&lt;p&gt;Profile photos are a great way to personalize your application! They make user profiles more engaging and ensure everyone has a recognizable avatar when creating or commenting on posts. If you’re using Jetstream and want to enable custom profile photos, here’s a simple guide to get you started.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Avatar is a great way to personalize your application! They make user profiles more engaging and ensure everyone has a recognizable avatar when creating or commenting on posts. If you’re using Jetstream and want to enable custom profile photos, here’s a simple guide to get you started.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demystifying Laravel Jetstream</title>
+      <link>http://localhost:1313/laravel/demystifying-laravel-jetstream/</link>
+      <pubDate>Sun, 22 Dec 2024 20:49:29 +0000</pubDate>
+      <guid>http://localhost:1313/laravel/demystifying-laravel-jetstream/</guid>
+      <description>&lt;p&gt;Laravel Jetstream is a polished UI scaffolding package for Laravel applications. It provides developers with a refined starting point for building user interfaces, offering pre-built components and workflows for common features like authentication, profile management, and two-factor authentication.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

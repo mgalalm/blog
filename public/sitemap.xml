@@ -2,13 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/laravel/demystifying-laravel-jetstream/</loc>
-    <lastmod>2024-12-22T20:49:29+00:00</lastmod>
+    <loc>http://localhost:1313/tags/amazon-ses/</loc>
+    <lastmod>2024-12-23T21:25:28+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/aws/</loc>
+    <lastmod>2024-12-23T21:25:28+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/aws/</loc>
+    <lastmod>2024-12-23T21:25:28+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2024-12-23T21:25:28+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cloud/</loc>
+    <lastmod>2024-12-23T21:25:28+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/cloud/</loc>
+    <lastmod>2024-12-23T21:25:28+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/laravel/how-to-send-emails-using-amazon-ses-in-laravel/</loc>
+    <lastmod>2024-12-23T21:25:28+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/laravel/</loc>
+    <lastmod>2024-12-23T21:25:28+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/laravel/</loc>
-    <lastmod>2024-12-22T20:49:29+00:00</lastmod>
+    <lastmod>2024-12-23T21:25:28+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/laravel/</loc>
+    <lastmod>2024-12-23T21:25:28+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2024-12-23T21:25:28+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-12-23T21:25:28+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/laravel/how-to-enable-profile-photos-in-jetstream/</loc>
+    <lastmod>2024-12-23T20:03:24+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/jetstream/</loc>
+    <lastmod>2024-12-23T20:03:24+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/laravel/demystifying-laravel-jetstream/</loc>
     <lastmod>2024-12-22T20:49:29+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/laravel/extracting-and-reusing-functions-in-pest-tests/</loc>
@@ -26,15 +62,6 @@
     <loc>http://localhost:1313/beyond-code/some-table-topics-with-the-help-of-grok2/</loc>
     <lastmod>2024-12-13T13:47:41+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-12-08T21:39:10+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/laravel/</loc>
-    <lastmod>2024-12-08T21:39:10+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/laravel/</loc>
-    <lastmod>2024-12-08T21:39:10+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/mocking/</loc>
     <lastmod>2024-12-08T21:39:10+00:00</lastmod>
   </url><url>
@@ -45,9 +72,6 @@
     <lastmod>2024-12-08T21:39:10+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/programming/</loc>
-    <lastmod>2024-12-08T21:39:10+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-12-08T21:39:10+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/testing/</loc>

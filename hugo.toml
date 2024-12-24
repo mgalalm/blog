@@ -19,6 +19,9 @@ pluralizelisttitles = false
   keywords = 'web development, programming, technology, blog'
   author = 'mgalalm'
 
+    [params.header]
+      logo = "logo_transparent.png"
+
 [services.googleAnalytics]
   id = 'G-2M6HFXVW04'
 

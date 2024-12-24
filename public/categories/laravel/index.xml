@@ -6,8 +6,15 @@
     <description>Recent content in Laravel on mgalalm - blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Dec 2024 21:39:10 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Dec 2024 21:25:28 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/laravel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Send Emails Using Amazon Ses in Laravel</title>
+      <link>http://localhost:1313/laravel/how-to-send-emails-using-amazon-ses-in-laravel/</link>
+      <pubDate>Mon, 23 Dec 2024 21:25:28 +0000</pubDate>
+      <guid>http://localhost:1313/laravel/how-to-send-emails-using-amazon-ses-in-laravel/</guid>
+      <description>&lt;p&gt;Hey there, Laravel enthusiast! If you’ve ever wanted to send emails through Amazon SES (Simple Email Service) using Laravel, you’re in the right place. Amazon SES is reliable, scalable, and integrates beautifully with Laravel. Let’s dive into the steps to get it up and running in no time!&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Mocking a Demeter Chain in PHP the Shortcut You Didn&#39;t Know You Had</title>
       <link>http://localhost:1313/laravel/mocking-a-demeter-chain-in-php-the-shortcut-you-didn-t-know-you-had/</link>
