@@ -9,7 +9,7 @@
     <lastBuildDate>Mon, 23 Dec 2024 21:25:28 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/aws/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to Send Emails Using Amazon Ses in Laravel</title>
+      <title>How to Send Emails Using Amazon SES in Laravel</title>
       <link>http://localhost:1313/laravel/how-to-send-emails-using-amazon-ses-in-laravel/</link>
       <pubDate>Mon, 23 Dec 2024 21:25:28 +0000</pubDate>
       <guid>http://localhost:1313/laravel/how-to-send-emails-using-amazon-ses-in-laravel/</guid>

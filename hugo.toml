@@ -22,6 +22,9 @@ pluralizelisttitles = false
     [params.header]
       logo = "logo_transparent.png"
 
+    [params.footer]
+      poweredBy = false
+
 [services.googleAnalytics]
   id = 'G-2M6HFXVW04'
 
