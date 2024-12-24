@@ -5,6 +5,8 @@ title = 'Some Table Topics With the Help of Grok2'
 image = '/images/santa-election.jpeg'
 +++
 
+Table Topics are a great way to practice impromptu speaking. Here are some fun and creative topics to get you started: <!--more-->
+
 1. What happens when Santa holds an election for Head Elf? Campaign promises and all
 
 ![Santa election](/images/santa-election.jpeg)
