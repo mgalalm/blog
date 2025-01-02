@@ -6,7 +6,7 @@ image = '/images/amazon-ses-laravel.jpeg'
 tags = ['Laravel', 'Cloud', 'AWS', 'Amazon SES']
 categories = ['Laravel', 'Cloud', 'AWS']
 +++
-Hey there, Laravel enthusiast! If you’ve ever wanted to send emails through Amazon SES (Simple Email Service) using Laravel, you’re in the right place. Amazon SES is reliable, scalable, and integrates beautifully with Laravel. Let’s dive into the steps to get it up and running in no time! <!--more-->
+Hey there, Cloud enthusiast! If you’ve ever wanted to send emails through Amazon SES (Simple Email Service) using Laravel, you’re in the right place. Amazon SES is reliable, scalable, and integrates beautifully with Laravel. Let’s dive into the steps to get it up and running in no time! <!--more-->
 
 ### Step 1: Install the Required Package
 
