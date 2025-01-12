@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Seeders on mgalalm - blog</title>
+    <link>http://localhost:1313/tags/seeders/</link>
+    <description>Recent content in Seeders on mgalalm - blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Dec 2024 20:50:12 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/seeders/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Laravel Seeders and Pest: A Casual Look</title>
+      <link>http://localhost:1313/posts/laravel/laravel-seeders-and-pest-a-casual-look/</link>
+      <pubDate>Wed, 04 Dec 2024 20:50:12 +0000</pubDate>
+      <guid>http://localhost:1313/posts/laravel/laravel-seeders-and-pest-a-casual-look/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s dive into the world of Laravel seeders used with Pest.&lt;/p&gt;&#xA;&lt;h2 id=&#34;setting-up-data-with-seeders&#34;&gt;Setting Up Data with Seeders&lt;/h2&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s a snippet of how you might use a seeder:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

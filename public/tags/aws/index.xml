@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AWS on mgalalm - blog</title>
+    <link>http://localhost:1313/tags/aws/</link>
+    <description>Recent content in AWS on mgalalm - blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Dec 2024 21:25:28 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Send Emails Using Amazon SES in Laravel</title>
+      <link>http://localhost:1313/posts/laravel/how-to-send-emails-using-amazon-ses-in-laravel/</link>
+      <pubDate>Mon, 23 Dec 2024 21:25:28 +0000</pubDate>
+      <guid>http://localhost:1313/posts/laravel/how-to-send-emails-using-amazon-ses-in-laravel/</guid>
+      <description>&lt;p&gt;Hey there, Cloud enthusiast! If you’ve ever wanted to send emails through Amazon SES (Simple Email Service) using Laravel, you’re in the right place. Amazon SES is reliable, scalable, and integrates beautifully with Laravel. Let’s dive into the steps to get it up and running in no time!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

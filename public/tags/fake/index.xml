@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fake on mgalalm - blog</title>
+    <link>http://localhost:1313/tags/fake/</link>
+    <description>Recent content in Fake on mgalalm - blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Dec 2024 10:48:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/fake/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testing with Fake HTTP Requests in Laravel</title>
+      <link>http://localhost:1313/posts/laravel/testing-with-fake-http-laravel/</link>
+      <pubDate>Tue, 03 Dec 2024 10:48:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/laravel/testing-with-fake-http-laravel/</guid>
+      <description>&lt;p&gt;In Laravel, one of the powerful tools for testing is the ability to simulate HTTP responses without actually hitting an external API. This is particularly useful when you need to ensure your application behaves correctly regardless of the API&amp;rsquo;s response.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

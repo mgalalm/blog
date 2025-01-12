@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on mgalalm - blog</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on mgalalm - blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Jan 2025 14:12:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Accessibility</title>
+      <link>http://localhost:1313/tags/accessibility/</link>
+      <pubDate>Sun, 12 Jan 2025 14:12:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/accessibility/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Screen Readers</title>
+      <link>http://localhost:1313/tags/screen-readers/</link>
+      <pubDate>Sun, 12 Jan 2025 14:12:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/screen-readers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tailwind CSS</title>
+      <link>http://localhost:1313/tags/tailwind-css/</link>
+      <pubDate>Sun, 12 Jan 2025 14:12:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/tailwind-css/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Amazon SES</title>
+      <link>http://localhost:1313/tags/amazon-ses/</link>
+      <pubDate>Mon, 23 Dec 2024 21:25:28 +0000</pubDate>
+      <guid>http://localhost:1313/tags/amazon-ses/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AWS</title>
+      <link>http://localhost:1313/tags/aws/</link>
+      <pubDate>Mon, 23 Dec 2024 21:25:28 +0000</pubDate>
+      <guid>http://localhost:1313/tags/aws/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud</title>
+      <link>http://localhost:1313/tags/cloud/</link>
+      <pubDate>Mon, 23 Dec 2024 21:25:28 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Laravel</title>
+      <link>http://localhost:1313/tags/laravel/</link>
+      <pubDate>Mon, 23 Dec 2024 21:25:28 +0000</pubDate>
+      <guid>http://localhost:1313/tags/laravel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jetstream</title>
+      <link>http://localhost:1313/tags/jetstream/</link>
+      <pubDate>Mon, 23 Dec 2024 20:03:24 +0000</pubDate>
+      <guid>http://localhost:1313/tags/jetstream/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mocking</title>
+      <link>http://localhost:1313/tags/mocking/</link>
+      <pubDate>Sun, 08 Dec 2024 21:39:10 +0000</pubDate>
+      <guid>http://localhost:1313/tags/mocking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PHP</title>
+      <link>http://localhost:1313/tags/php/</link>
+      <pubDate>Sun, 08 Dec 2024 21:39:10 +0000</pubDate>
+      <guid>http://localhost:1313/tags/php/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Testing</title>
+      <link>http://localhost:1313/tags/testing/</link>
+      <pubDate>Sun, 08 Dec 2024 21:39:10 +0000</pubDate>
+      <guid>http://localhost:1313/tags/testing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mockery</title>
+      <link>http://localhost:1313/tags/mockery/</link>
+      <pubDate>Sat, 07 Dec 2024 21:30:02 +0000</pubDate>
+      <guid>http://localhost:1313/tags/mockery/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unit Testing</title>
+      <link>http://localhost:1313/tags/unit-testing/</link>
+      <pubDate>Sat, 07 Dec 2024 21:30:02 +0000</pubDate>
+      <guid>http://localhost:1313/tags/unit-testing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Facades</title>
+      <link>http://localhost:1313/tags/facades/</link>
+      <pubDate>Sat, 07 Dec 2024 16:06:15 +0000</pubDate>
+      <guid>http://localhost:1313/tags/facades/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Exceptions</title>
+      <link>http://localhost:1313/tags/exceptions/</link>
+      <pubDate>Fri, 06 Dec 2024 21:47:23 +0000</pubDate>
+      <guid>http://localhost:1313/tags/exceptions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Code Coverage</title>
+      <link>http://localhost:1313/tags/code-coverage/</link>
+      <pubDate>Thu, 05 Dec 2024 19:57:18 +0000</pubDate>
+      <guid>http://localhost:1313/tags/code-coverage/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Xdebug</title>
+      <link>http://localhost:1313/tags/xdebug/</link>
+      <pubDate>Thu, 05 Dec 2024 19:57:18 +0000</pubDate>
+      <guid>http://localhost:1313/tags/xdebug/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pest</title>
+      <link>http://localhost:1313/tags/pest/</link>
+      <pubDate>Wed, 04 Dec 2024 20:50:12 +0000</pubDate>
+      <guid>http://localhost:1313/tags/pest/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Seeders</title>
+      <link>http://localhost:1313/tags/seeders/</link>
+      <pubDate>Wed, 04 Dec 2024 20:50:12 +0000</pubDate>
+      <guid>http://localhost:1313/tags/seeders/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fake</title>
+      <link>http://localhost:1313/tags/fake/</link>
+      <pubDate>Tue, 03 Dec 2024 10:48:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/fake/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HTTP</title>
+      <link>http://localhost:1313/tags/http/</link>
+      <pubDate>Tue, 03 Dec 2024 10:48:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/http/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

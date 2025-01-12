@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Facades on mgalalm - blog</title>
+    <link>http://localhost:1313/tags/facades/</link>
+    <description>Recent content in Facades on mgalalm - blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Dec 2024 16:06:15 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/facades/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mocking Classes With Real Time Facades</title>
+      <link>http://localhost:1313/posts/laravel/mocking-classes-with-real-time-facades/</link>
+      <pubDate>Sat, 07 Dec 2024 16:06:15 +0000</pubDate>
+      <guid>http://localhost:1313/posts/laravel/mocking-classes-with-real-time-facades/</guid>
+      <description>&lt;p&gt;In PHP, particularly within frameworks like Laravel, facades provide a static-like interface to classes available in the service container. Here, we delve into the concept of real-time facades, which allow you to treat any class in your application as if it were a facade, enhancing your ability to mock dependencies for testing.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

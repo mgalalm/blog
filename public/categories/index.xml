@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on mgalalm - blog</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on mgalalm - blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Jan 2025 14:12:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Accessibility</title>
+      <link>http://localhost:1313/categories/accessibility/</link>
+      <pubDate>Sun, 12 Jan 2025 14:12:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/accessibility/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Development</title>
+      <link>http://localhost:1313/categories/web-development/</link>
+      <pubDate>Sun, 12 Jan 2025 14:12:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/web-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AWS</title>
+      <link>http://localhost:1313/categories/aws/</link>
+      <pubDate>Mon, 23 Dec 2024 21:25:28 +0000</pubDate>
+      <guid>http://localhost:1313/categories/aws/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud</title>
+      <link>http://localhost:1313/categories/cloud/</link>
+      <pubDate>Mon, 23 Dec 2024 21:25:28 +0000</pubDate>
+      <guid>http://localhost:1313/categories/cloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Laravel</title>
+      <link>http://localhost:1313/categories/laravel/</link>
+      <pubDate>Mon, 23 Dec 2024 21:25:28 +0000</pubDate>
+      <guid>http://localhost:1313/categories/laravel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>http://localhost:1313/categories/programming/</link>
+      <pubDate>Sun, 08 Dec 2024 21:39:10 +0000</pubDate>
+      <guid>http://localhost:1313/categories/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Testing</title>
+      <link>http://localhost:1313/categories/testing/</link>
+      <pubDate>Sat, 07 Dec 2024 21:30:02 +0000</pubDate>
+      <guid>http://localhost:1313/categories/testing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PHP</title>
+      <link>http://localhost:1313/categories/php/</link>
+      <pubDate>Mon, 02 Dec 2024 15:48:00 -0800</pubDate>
+      <guid>http://localhost:1313/categories/php/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

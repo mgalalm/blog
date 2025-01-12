@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Testing on mgalalm - blog</title>
+    <link>http://localhost:1313/tags/testing/</link>
+    <description>Recent content in Testing on mgalalm - blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Dec 2024 21:39:10 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/testing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mocking a Demeter Chain in PHP the Shortcut You Didn&#39;t Know You Had</title>
+      <link>http://localhost:1313/posts/laravel/mocking-a-demeter-chain-in-php-the-shortcut-you-didn-t-know-you-had/</link>
+      <pubDate>Sun, 08 Dec 2024 21:39:10 +0000</pubDate>
+      <guid>http://localhost:1313/posts/laravel/mocking-a-demeter-chain-in-php-the-shortcut-you-didn-t-know-you-had/</guid>
+      <description>&lt;p&gt;Ever tried to mock a Demeter chain in PHP? It&amp;rsquo;s like trying to thread a needle with a rope. Let’s break it down with an example using Laravel.&lt;/p&gt;&#xA;&lt;h2 id=&#34;example-of-a-demeter-chain&#34;&gt;Example of a Demeter Chain&lt;/h2&gt;&#xA;&lt;p&gt;Imagine you&amp;rsquo;re working with Laravel, and you have this glorious chain:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$order &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Order&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;find&lt;/span&gt;($id);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$status &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; $order&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;payment&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;transaction&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;status&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Here, we&amp;rsquo;re grabbing an Order, navigating through its payment, then through its transaction, to get the status.&lt;/p&gt;&#xA;&lt;p&gt;Now you want to test something, and this chain decides to make your life miserable:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stubs Mocks Double and Spies When to Use One Over the Other?</title>
+      <link>http://localhost:1313/posts/laravel/stubs-mocks-double-and-spies-when-to-use-one-over-the-other/</link>
+      <pubDate>Sat, 07 Dec 2024 21:30:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/laravel/stubs-mocks-double-and-spies-when-to-use-one-over-the-other/</guid>
+      <description>&lt;p&gt;In software development, especially when working with frameworks like Laravel, unit testing is crucial for ensuring code reliability and maintainability. Laravel integrates well with Mockery, a mocking framework for PHP, to help developers create test doubles. Let&amp;rsquo;s delve into the concepts of Stubs, Mocks, Doubles, and Spies, and how they&amp;rsquo;re used in Laravel testing scenarios.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mocking Classes With Real Time Facades</title>
+      <link>http://localhost:1313/posts/laravel/mocking-classes-with-real-time-facades/</link>
+      <pubDate>Sat, 07 Dec 2024 16:06:15 +0000</pubDate>
+      <guid>http://localhost:1313/posts/laravel/mocking-classes-with-real-time-facades/</guid>
+      <description>&lt;p&gt;In PHP, particularly within frameworks like Laravel, facades provide a static-like interface to classes available in the service container. Here, we delve into the concept of real-time facades, which allow you to treat any class in your application as if it were a facade, enhancing your ability to mock dependencies for testing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Laravel Testing  Mastering Exception Scenarios</title>
+      <link>http://localhost:1313/posts/laravel/laravel-testing-mastering-exception-scenarios/</link>
+      <pubDate>Fri, 06 Dec 2024 21:47:23 +0000</pubDate>
+      <guid>http://localhost:1313/posts/laravel/laravel-testing-mastering-exception-scenarios/</guid>
+      <description>&lt;p&gt;Testing Exceptions. In this post, we&amp;rsquo;ll explore how to create and test custom exceptions effectively, enhancing the reliability of your applications.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Turbocharge Your Code Coverage With Xdebug</title>
+      <link>http://localhost:1313/posts/laravel/mastering-laravel-testing-turbocharge-your-code-coverage-with-xdebug/</link>
+      <pubDate>Thu, 05 Dec 2024 19:57:18 +0000</pubDate>
+      <guid>http://localhost:1313/posts/laravel/mastering-laravel-testing-turbocharge-your-code-coverage-with-xdebug/</guid>
+      <description>&lt;p&gt;In the dynamic world of Laravel development, ensuring your code is well-tested isn&amp;rsquo;t just good practice; it&amp;rsquo;s essential for creating robust applications. &lt;strong&gt;Code coverage&lt;/strong&gt; serves as a critical metric to assess the extent to which your tests cover your codebase.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Laravel Seeders and Pest: A Casual Look</title>
+      <link>http://localhost:1313/posts/laravel/laravel-seeders-and-pest-a-casual-look/</link>
+      <pubDate>Wed, 04 Dec 2024 20:50:12 +0000</pubDate>
+      <guid>http://localhost:1313/posts/laravel/laravel-seeders-and-pest-a-casual-look/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s dive into the world of Laravel seeders used with Pest.&lt;/p&gt;&#xA;&lt;h2 id=&#34;setting-up-data-with-seeders&#34;&gt;Setting Up Data with Seeders&lt;/h2&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s a snippet of how you might use a seeder:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Testing with Fake HTTP Requests in Laravel</title>
+      <link>http://localhost:1313/posts/laravel/testing-with-fake-http-laravel/</link>
+      <pubDate>Tue, 03 Dec 2024 10:48:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/laravel/testing-with-fake-http-laravel/</guid>
+      <description>&lt;p&gt;In Laravel, one of the powerful tools for testing is the ability to simulate HTTP responses without actually hitting an external API. This is particularly useful when you need to ensure your application behaves correctly regardless of the API&amp;rsquo;s response.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Testing Laravel Applications with Pest</title>
+      <link>http://localhost:1313/posts/laravel/testing-laravel-with-pest/</link>
+      <pubDate>Mon, 02 Dec 2024 15:48:00 -0800</pubDate>
+      <guid>http://localhost:1313/posts/laravel/testing-laravel-with-pest/</guid>
+      <description>&lt;p&gt;&lt;div class=&#34;not-prose&#34;&gt;&#xA;&lt;figure&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/laravel-pest.jpg&#34;&#xA;      alt=&#34;Laravel and Pest&#34; &#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&#xA;  &lt;/figure&gt;&lt;/div&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Testing is a critical part of software development, ensuring that applications behave as expected. Laravel, known for its elegant syntax and developer-friendly features, has been paired beautifully with Pest, an innovative testing framework for PHP. Here&amp;rsquo;s how to leverage Pest for writing tests in Laravel.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

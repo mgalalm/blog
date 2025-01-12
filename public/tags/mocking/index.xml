@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mocking on mgalalm - blog</title>
+    <link>http://localhost:1313/tags/mocking/</link>
+    <description>Recent content in Mocking on mgalalm - blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Dec 2024 21:39:10 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mocking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mocking a Demeter Chain in PHP the Shortcut You Didn&#39;t Know You Had</title>
+      <link>http://localhost:1313/posts/laravel/mocking-a-demeter-chain-in-php-the-shortcut-you-didn-t-know-you-had/</link>
+      <pubDate>Sun, 08 Dec 2024 21:39:10 +0000</pubDate>
+      <guid>http://localhost:1313/posts/laravel/mocking-a-demeter-chain-in-php-the-shortcut-you-didn-t-know-you-had/</guid>
+      <description>&lt;p&gt;Ever tried to mock a Demeter chain in PHP? It&amp;rsquo;s like trying to thread a needle with a rope. Let’s break it down with an example using Laravel.&lt;/p&gt;&#xA;&lt;h2 id=&#34;example-of-a-demeter-chain&#34;&gt;Example of a Demeter Chain&lt;/h2&gt;&#xA;&lt;p&gt;Imagine you&amp;rsquo;re working with Laravel, and you have this glorious chain:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$order &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Order&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;find&lt;/span&gt;($id);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$status &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; $order&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;payment&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;transaction&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;status&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Here, we&amp;rsquo;re grabbing an Order, navigating through its payment, then through its transaction, to get the status.&lt;/p&gt;&#xA;&lt;p&gt;Now you want to test something, and this chain decides to make your life miserable:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mocking Classes With Real Time Facades</title>
+      <link>http://localhost:1313/posts/laravel/mocking-classes-with-real-time-facades/</link>
+      <pubDate>Sat, 07 Dec 2024 16:06:15 +0000</pubDate>
+      <guid>http://localhost:1313/posts/laravel/mocking-classes-with-real-time-facades/</guid>
+      <description>&lt;p&gt;In PHP, particularly within frameworks like Laravel, facades provide a static-like interface to classes available in the service container. Here, we delve into the concept of real-time facades, which allow you to treat any class in your application as if it were a facade, enhancing your ability to mock dependencies for testing.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

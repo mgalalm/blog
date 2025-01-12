@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code Coverage on mgalalm - blog</title>
+    <link>http://localhost:1313/tags/code-coverage/</link>
+    <description>Recent content in Code Coverage on mgalalm - blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Dec 2024 19:57:18 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/code-coverage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Turbocharge Your Code Coverage With Xdebug</title>
+      <link>http://localhost:1313/posts/laravel/mastering-laravel-testing-turbocharge-your-code-coverage-with-xdebug/</link>
+      <pubDate>Thu, 05 Dec 2024 19:57:18 +0000</pubDate>
+      <guid>http://localhost:1313/posts/laravel/mastering-laravel-testing-turbocharge-your-code-coverage-with-xdebug/</guid>
+      <description>&lt;p&gt;In the dynamic world of Laravel development, ensuring your code is well-tested isn&amp;rsquo;t just good practice; it&amp;rsquo;s essential for creating robust applications. &lt;strong&gt;Code coverage&lt;/strong&gt; serves as a critical metric to assess the extent to which your tests cover your codebase.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

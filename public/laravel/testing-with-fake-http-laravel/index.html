@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>Testing with Fake HTTP Requests in Laravel :: mgalalm - blog - Example site for hugo-theme-tailwind</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta
+  name="description"
+  content="In Laravel, one of the powerful tools for testing is the ability to simulate HTTP responses without actually hitting an external API. This is particularly useful when you need to ensure your application behaves correctly regardless of the API&rsquo;s response.
+"
+/>
+<meta
+  name="keywords"
+  content="web development, programming, technology, blog"
+/>
+<meta name="robots" content="noodp" /><link rel="manifest" href="/manifest.json" /><meta property="og:url" content="http://localhost:1313/laravel/testing-with-fake-http-laravel/">
+  <meta property="og:site_name" content="mgalalm - blog">
+  <meta property="og:title" content="Testing with Fake HTTP Requests in Laravel">
+  <meta property="og:description" content="In Laravel, one of the powerful tools for testing is the ability to simulate HTTP responses without actually hitting an external API. This is particularly useful when you need to ensure your application behaves correctly regardless of the API’s response.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="laravel">
+    <meta property="article:published_time" content="2024-12-03T10:48:00+00:00">
+    <meta property="article:modified_time" content="2024-12-03T10:48:00+00:00">
+    <meta property="article:tag" content="Laravel">
+    <meta property="article:tag" content="Testing">
+    <meta property="article:tag" content="HTTP">
+    <meta property="article:tag" content="Fake">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Testing with Fake HTTP Requests in Laravel">
+  <meta name="twitter:description" content="In Laravel, one of the powerful tools for testing is the ability to simulate HTTP responses without actually hitting an external API. This is particularly useful when you need to ensure your application behaves correctly regardless of the API’s response.">
+
+
+<link rel="canonical" href="http://localhost:1313/laravel/testing-with-fake-http-laravel/" />
+
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="stylesheet" href="/css/index.aba36c0be6de6c17376c9775e0a1def3125202fa3b5b43866c5464e7f48bbe93.css">
+
+
+
+
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-2M6HFXVW04"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-2M6HFXVW04');
+        }
+      </script>
+
+
+
+
+  
+  
+
+</head>
+<body class="flex flex-col min-h-screen w-full bg-slate-50 dark:bg-gray-800">
+    
+<div class="fixed right-0 top-0 z-50 flex items-center justify-center bg-gray-200 p-2 text-sm uppercase text-black sm:bg-red-200 md:bg-yellow-200 lg:bg-green-200 xl:bg-blue-200 2xl:bg-pink-200">
+  <span class="block sm:hidden">all</span>
+  <span class="hidden sm:block md:hidden">sm</span>
+  <span class="hidden md:block lg:hidden">md</span>
+  <span class="hidden lg:block xl:hidden">lg</span>
+  <span class="hidden xl:block 2xl:hidden">xl</span>
+  <span class="hidden 2xl:block">2xl</span>
+</div>
+
+  <header class="flex flex-none justify-center z-10">
+    <div class="flex flex-row gap justify-between w-full max-w-4xl lg:max-w-5xl h-12 mt-3">
+  <div class="flex-none ml-2 md:ml-0">
+    <a href="/" class="">
+      <img class="h-14 w-12 rounded-full object-cover bg-gray-100" src="/logo_transparent.png" alt="logo">
+    </a>
+  </div>
+  <div class="flex-1"></div>
+  <div class="flex-none">
+    
+
+
+
+<nav class="h-full static">
+  <button id="navbar-menu-toggle" type="button" class="inline-flex items-center p-2 text-sm text-slate-800 dark:text-slate-200 rounded-lg md:hidden" aria-controls="navbar-menu" aria-expanded="false">
+    <span class="sr-only">Open main menu</span>
+    <i class="w-8 h-8">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 6l16 0" />
+  <path d="M4 12l16 0" />
+  <path d="M4 18l16 0" />
+</svg>
+
+    </i>
+  </button>
+  <div class="absolute md:static top-16 left-0 right-0 z-50 hidden w-full md:block md:w-auto" id="navbar-menu">
+    <ul class="flex flex-col mx-2 md:mx-0 md:flex-row md:border-0 rounded-sm md:rounded-full px-3 text-base font-medium text-slate-800 dark:text-slate-200 shadow-lg bg-white dark:bg-gray-600 shadow-slate-800/5 dark:shadow-slate-200/5 ring-1 ring-slate-900/5 dark:ring-slate-100/5">
+    
+        <li id="home" class="">
+          <a class="block px-3 py-3 hover:text-emerald-600"
+            href="/" title="Home">Home</a>
+        </li>
+      
+    
+        <li id="laravel" class="">
+          <a class="block px-3 py-3 hover:text-emerald-600"
+            href="/laravel/" title="Laravel">Laravel</a>
+        </li>
+      
+    
+        <li id="lookfeel" class="">
+          <a class="block px-3 py-3 hover:text-emerald-600"
+            href="/lookfeel/" title="Look &amp; Feel">Look &amp; Feel</a>
+        </li>
+      
+    
+        <li id="beyondcode" class="">
+          <a class="block px-3 py-3 hover:text-emerald-600"
+            href="/beyondcode/" title="Beyond Code">Beyond Code</a>
+        </li>
+      
+    
+        <li id="search" class="">
+          <a class="block px-3 py-3 hover:text-emerald-600"
+            href="/search/" title=""></a>
+        </li>
+      
+    
+    </ul>
+  </div>
+</nav>
+
+
+  </div>
+  
+  <div class="flex-none mx-1"></div>
+  
+  <div class="flex-none md:hidden">
+    <a href=/search/ class="inline-flex items-center p-2 text-sm text-slate-800 dark:text-slate-200 rounded-lg" aria-controls="navbar-menu" aria-expanded="false">
+      <span class="sr-only">Search</span>
+      <i class="w-8 h-8">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+    <path d="M21 21l-6 -6" />
+</svg>
+
+      </i>
+    </a>
+  </div>
+  <div class="darkmode-toggle flex flex-none mr-2 md:mr-0">
+    <label for="darkmode-toggle" class="flex items-center px-3 cursor-pointer rounded-full bg-gray-100 dark:bg-gray-600" title="Toggle dark mode">
+      <input name="darkmode-toggle" id="darkmode-toggle" type="checkbox" class="sr-only peer" aria-label="Toggle dark mode">
+      <div class="group flex flex-row gap-1 justify-center h-8 px-1 rounded-full bg-white dark:bg-gray-700">
+        <i class="h-6 w-6 flex-none rounded-full bg-yellow-400 place-self-center peer-checked:group-[]:invisible">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brightness-down" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+   <path d="M12 5l0 .01"></path>
+   <path d="M17 7l0 .01"></path>
+   <path d="M19 12l0 .01"></path>
+   <path d="M17 17l0 .01"></path>
+   <path d="M12 19l0 .01"></path>
+   <path d="M7 17l0 .01"></path>
+   <path d="M5 12l0 .01"></path>
+   <path d="M7 7l0 .01"></path>
+</svg>
+
+        </i>
+        <i class="h-6 w-6 flex-none rounded-full place-self-center invisible peer-checked:group-[]:visible">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon-stars" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+   <path d="M17 4a2 2 0 0 0 2 2a2 2 0 0 0 -2 2a2 2 0 0 0 -2 -2a2 2 0 0 0 2 -2"></path>
+   <path d="M19 11h2m-1 -1v2"></path>
+</svg>
+
+        </i>
+      </div>
+    </label>
+  </div>
+</div>
+
+  </header>
+  <main class="flex flex-auto justify-center">
+    
+<div class="w-full max-w-4xl lg:max-w-5xl">
+  <div class="flex flex-col mt-6 mx-2 md:mx-0 rounded-lg overflow-hidden shadow-md bg-white dark:bg-gray-700">
+    <div>
+      <a href="/laravel/testing-with-fake-http-laravel/">
+        <figure>
+    <img class="w-full object-cover h-80 md:h-64 lg:h-64 xl:h-72" src="/images/fake-http.jpg"
+      alt="Testing with Fake HTTP Requests in Laravel" title="Testing with Fake HTTP Requests in Laravel"
+      loading="lazy"
+    >
+  </figure>
+      </a>
+    </div>
+    <div class="flex flex-col gap-y-3 p-6">
+      <h1 class="text-4xl font-semibold text-slate-800 dark:text-slate-100">
+        <a href="/laravel/testing-with-fake-http-laravel/">Testing with Fake HTTP Requests in Laravel</a>
+      </h1>
+
+      
+      
+  <ul class="flex flex-row flex-wrap text-slate-500 dark:text-slate-300">
+    
+    
+      
+      <li>
+        <a href="/tags/laravel/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">Laravel</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/tags/testing/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">Testing</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/tags/http/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">HTTP</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/tags/fake/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">Fake</span>
+        </a>
+      </li>
+      
+    
+  </ul>
+
+
+
+      <div class="flex flex-col gap-y-1 md:flex-row md:gap-y-0 md:gap-x-4 text-slate-500 dark:text-slate-300">
+  
+  
+  <div class="flex flex-row text-base gap-x-1">
+    <i class="h-6 w-6 flex-none">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z"></path>
+   <path d="M16 3v4"></path>
+   <path d="M8 3v4"></path>
+   <path d="M4 11h16"></path>
+   <path d="M11 15h1"></path>
+   <path d="M12 15v3"></path>
+</svg>
+
+    </i>
+    <time datetime="2024-12-03T10:48:00&#43;00:00">
+      2024-12-03
+    </time>
+  </div>
+
+  <div class="flex flex-row text-base gap-x-1">
+    <i class="h-6 w-6 flex-none">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hourglass-high" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M6.5 7h11"></path>
+   <path d="M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1 -1 1h-10a1 1 0 0 1 -1 -1z"></path>
+   <path d="M6 4v2a6 6 0 1 0 12 0v-2a1 1 0 0 0 -1 -1h-10a1 1 0 0 0 -1 1z"></path>
+</svg>
+
+    </i>
+    <span>
+      2 minutes to read
+    </span>
+  </div>
+</div>
+
+      
+
+      
+        
+        <section class="prose prose-slate dark:prose-invert w-full max-w-4xl lg:max-w-5xl mt-6">
+          <h2>Table of Contents</h2>
+          <aside><nav id="TableOfContents">
+  <ul>
+    <li><a href="#the-tracking-functionality">The Tracking Functionality</a>
+      <ul>
+        <li><a href="#faking-the-http-response">Faking the HTTP Response</a></li>
+        <li><a href="#how-it-works">How it works</a></li>
+        <li><a href="#why-use-httpfake">Why Use Http::fake()?</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></aside>
+        </section>
+        
+      
+
+      <article class="mt-6 w-full max-w-4xl lg:max-w-5xl prose prose-slate dark:prose-invert prose-quoteless post-content">
+        <p>In Laravel, one of the powerful tools for testing is the ability to simulate HTTP responses without actually hitting an external API. This is particularly useful when you need to ensure your application behaves correctly regardless of the API&rsquo;s response.</p>
+<p>Here&rsquo;s how you can use <code>Http::fake()</code> to test a scenario where you&rsquo;re checking the stock status and price of an item from an Amazon-like service.</p>
+<h2 id="the-tracking-functionality">The Tracking Functionality</h2>
+<p>Let&rsquo;s consider a method <code>track()</code> in a <code>Stock</code> model which checks the stock status and price from an external service:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">track</span>()
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> ($this<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">retailer</span><span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">name</span> <span style="color:#f92672">===</span> <span style="color:#e6db74">&#39;Amazon UK&#39;</span>) {
+</span></span><span style="display:flex;"><span>        $results <span style="color:#f92672">=</span> <span style="color:#a6e22e">Http</span><span style="color:#f92672">::</span><span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;http://foo.test&#39;</span>)<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">json</span>();
+</span></span><span style="display:flex;"><span>        $this<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">update</span>([
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#39;in_stock&#39;</span> <span style="color:#f92672">=&gt;</span> $results[<span style="color:#e6db74">&#39;available&#39;</span>],
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#39;price&#39;</span> <span style="color:#f92672">=&gt;</span> $results[<span style="color:#e6db74">&#39;price&#39;</span>],
+</span></span><span style="display:flex;"><span>        ]);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>This function assumes that when it makes an HTTP GET request to <a href="http://foo.test" target="_blank" rel="noopener">http://foo.test</a>
+, it receives JSON data with keys available and price.</p>
+<h3 id="faking-the-http-response">Faking the HTTP Response</h3>
+<p>To test this method without real network calls, we can use Laravel&rsquo;s Http::fake() method:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#e6db74">/** @test */</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">it</span>(<span style="color:#e6db74">&#34;tracks products stock&#34;</span>, <span style="color:#66d9ef">function</span> () {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Fake the HTTP response for &#39;foo.test&#39;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#a6e22e">Http</span><span style="color:#f92672">::</span><span style="color:#a6e22e">fake</span>([
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;foo.test&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#a6e22e">Http</span><span style="color:#f92672">::</span><span style="color:#a6e22e">response</span>([
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#39;available&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#66d9ef">false</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#39;price&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#ae81ff">2000</span>,
+</span></span><span style="display:flex;"><span>        ], <span style="color:#ae81ff">200</span>)
+</span></span><span style="display:flex;"><span>    ]);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Setup the stock instance
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    $stock <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Stock</span>([
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;price&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#ae81ff">2000</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;url&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#e6db74">&#39;http://www.amazon.uk&#39;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;in_stock&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#66d9ef">true</span>, <span style="color:#75715e">// Initially, we assume it&#39;s in stock
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#e6db74">&#39;sku&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#e6db74">&#39;12345&#39;</span>,
+</span></span><span style="display:flex;"><span>    ]);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Assuming $amazon_uk is an instance of a Retailer model or similar
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    $amazon_uk<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">addStock</span>($my_book, $stock);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Call the track method which should update the stock
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    $stock<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">track</span>();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Assert that the stock is now reflected as not in stock
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    $this<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">assertFalse</span>($stock<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">fresh</span>()<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">in_stock</span>);
+</span></span><span style="display:flex;"><span>});
+</span></span></code></pre></div><h3 id="how-it-works">How it works</h3>
+<p>We use Http::fake() to define what <a href="http://foo.test" target="_blank" rel="noopener">http://foo.test</a>
+ should respond with. Here, we&rsquo;re saying it should return a JSON response with available set to false and price at 2000.</p>
+<h3 id="why-use-httpfake">Why Use Http::fake()?</h3>
+<ul>
+<li><em>Consistency</em>: Tests are not dependent on external service availability or data changes.</li>
+<li>Speed: Reduces test time by avoiding actual HTTP requests.</li>
+<li>Isolation: Keeps tests isolated from the network and external dependencies, making them more reliable and easier to maintain.</li>
+</ul>
+<p>By leveraging Http::fake(), you can thoroughly test how your application handles different scenarios from external APIs without the need for actual integration with those services during your test runs. This approach is essential for developing robust, reliable, and efficient applications.</p>
+      </article>
+
+      
+
+
+
+
+    </div>
+  </div>
+</div>
+
+  </main>
+  <footer class="flex flex-none justify-center">
+    <section class="flex flex-col md:flex-row mx-2 md:mx-0 gap-2 md:gap-0 justify-between w-full max-w-4xl lg:max-w-5xl py-6 text-slate-500 dark:text-slate-300">
+  <div class="flex flex-row">
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  </div>
+  <div class="grow"></div>
+  <div class="flex flex-row">
+    <i class="h-6 w-6 flex-none"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+   <path d="M14 9.75a3.016 3.016 0 0 0 -4.163 .173a2.993 2.993 0 0 0 0 4.154a3.016 3.016 0 0 0 4.163 .173"></path>
+</svg>
+</i> 2023 - 2025 
+    
+  </div>
+  
+</section>
+
+  </footer>
+  <script src="/main.js"></script>
+
+<div class="hidden top-1 right-1" id="code-copy">
+  <i class="h-6 w-6 block">
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copy" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M7 7m0 2.667a2.667 2.667 0 0 1 2.667 -2.667h8.666a2.667 2.667 0 0 1 2.667 2.667v8.666a2.667 2.667 0 0 1 -2.667 2.667h-8.666a2.667 2.667 0 0 1 -2.667 -2.667z" />
+  <path d="M4.012 16.737a2.005 2.005 0 0 1 -1.012 -1.737v-10c0 -1.1 .9 -2 2 -2h10c.75 0 1.158 .385 1.5 1" />
+</svg>
+
+  </i>
+</div>
+<div class="hidden top-1 right-1" id="code-copy-done">
+  <i class="h-6 w-6 block">
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M5 12l5 5l10 -10" />
+</svg>
+
+  </i>
+</div><script src="/code-copy.js"></script>
+
+
+
+
+
+</body>
+</html>

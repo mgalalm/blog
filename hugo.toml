@@ -1,0 +1,92 @@
+baseURL = 'https://mgalalm.me/'
+languageCode = 'en-us'
+title = 'mgalalm - blog'
+theme = 'tailwind'
+sectionPagesMenu = 'main'
+pluralizelisttitles = false
+enableEmoji = true
+pygmentsCodeFences = true
+[markup]
+
+  defaultMarkdownHandler = "goldmark"
+    [markup.goldmark]
+      [markup.goldmark.renderer]
+        unsafe = true
+
+
+[params]
+  contentTypeName = "posts"
+  description = 'A blog about web development, programming, and technology.'
+  keywords = 'web development, programming, technology, blog'
+  author = 'mgalalm'
+
+    [params.header]
+      logo = "logo_transparent.png"
+
+    [params.footer]
+      poweredBy = false
+
+[services.googleAnalytics]
+  id = 'G-2M6HFXVW04'
+
+[menu]
+  [[menu.Main]]
+    identifier = "posts"
+    name       = "Home"
+    url        = "/"
+    weight     = 1
+
+  [[menu.Main]]
+    identifier = "laravel"
+    name       = "Laravel"
+    url        = "/laravel/"
+    weight     = 2
+  [[menu.Main]]
+    identifier = "lookfeel"
+    name       = "Look & Feel"
+    url        = "/lookfeel/"
+    weight     = 3
+
+ [[menu.Main]]
+    identifier = "beyondcode"
+    name       = "Beyond Code"
+    url        = "/beyondcode/"
+    weight     = 4
+
+  # [[menu.Main]]
+  #   identifier = "blog"
+  #   name       = "Blog"
+  #   url        = "/blog/"
+  #   weight     = 4
+
+  # [[menu.Main]]
+  #   identifier = "projects"
+  #   name       = "Projects"
+  #   url        = "/projects/"
+  #   weight     = 5
+
+  # [[menu.Main]]
+  #   identifier = "services"
+  #   name       = "Services"
+  #   url        = "/services/"
+  #   weight     = 6
+
+  # [[menu.Main]]
+  #   identifier = "portfolio"
+  #   name       = "Portfolio"
+  #   url        = "/portfolio/"
+  #   weight     = 7
+
+  # [[menu.Main]]
+  #   identifier = "pricing"
+  #   name       = "Pricing"
+  #   url        = "/pricing/"
+  #   weight     = 8
+
+  # [[menu.Main]]
+  #   identifier = "team"
+  #   name       = "Team"
+  #   url        = "/team/"
+  #   weight     = 9
+
+# show sidebar in post list
